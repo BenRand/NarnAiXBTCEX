@@ -3,6 +3,8 @@
 require_once(dirname(__FILE__) . '/../../includes/functions.php');
 require_once(dirname(__FILE__) . '/../../includes/session.php');
 
+if (!$session->is_logged_in()) { redirect_to("login.php"); }
+
 ?>
 
 <?php
@@ -25,12 +27,36 @@ require_once('../../includes/nav.php');
         </div>
 
 <h1> WELCOME TO ADMIN PANEL </h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <?php 
-  logout($user);
-    
 if(isset($database)) { $database->close_connection(); }
 
 require_once('../../includes/footer.php');
+
+
+
+
+// Dump x
+ob_start();
+var_dump(debug_backtrace());
+$contents = ob_get_contents();
+ob_end_clean();
+log_action($contents);
+// error_log($contents);
+
 ?>
 
 

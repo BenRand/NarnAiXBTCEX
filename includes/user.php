@@ -39,7 +39,17 @@ class User {
 			$object_array[] = self::instantiate($row);
 		}
 		return $object_array;
+	}
+	public static function authenticate($username="", $password=""){
+		global $database;
 
+		$sql = "SELECT * FROM user ";
+		$sql .= "WHERE username = '{$username}' ";
+		$sql .= "AND password = '{$password}' ";
+		$sql .= "LIMIT 1";
+
+		$result_array = self::find_by_sql($sql);
+		return !empty($result_array) ? array_shift($result_array) : false;
 	}
 	public function full_name(){
 		if(isset($this->first_name) && isset($this->last_name)){
@@ -62,6 +72,14 @@ class User {
 				$object->$attribute = $value;
 			}
 		}
+		
+// Dump x
+ob_start();
+var_dump(debug_backtrace());
+$contents = ob_get_contents();
+ob_end_clean();
+log_action($contents);
+error_log($contents);
 		return $object;
 
 	}
