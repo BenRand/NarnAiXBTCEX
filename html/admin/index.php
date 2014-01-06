@@ -37,8 +37,9 @@ require_once('../../includes/nav.php');
 
 
 
-
-
+<?php
+$session->logout();
+?>
 
 
 <?php 
