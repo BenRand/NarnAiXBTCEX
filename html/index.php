@@ -32,22 +32,28 @@ log_action('Page Load', __FILE__);
 
 
 <?php
-if (isset($database)){echo "true";} else { echo "false";}
-echo "<br />";
+// if (isset($database)){echo "true";} else { echo "false";}
+// echo "<br />";
 
-// $record = User::find_by_id(1);
-// echo $record->full_name() . '<br>';
-// echo $record->email . '<br /><br />';
+// $sql = "SELECT * FROM user WHERE id=5";
+// $result = $database->query($sql);
+// $found_user = $database->fetch_array($result);
+// echo $found_user['username'];
 
 
-// $users = User::find_all();
-// // echo $users[];
+$record = User::find_by_id(1);
+echo $record->full_name() . '<br>';
+echo $record->email . '<br /><br />';
 
-// foreach ($users as $user){
-//   echo "User: " . $user->username . '<br />';
-//   echo "pass: " . $user->password . '<br />';
-//   echo "Name: " . $user->full_name() . '<br /> <br />';
-// }
+
+$users = User::find_all();
+// echo $users[];
+
+foreach ($users as $user){
+  echo "User: " . $user->username . '<br />';
+  echo "pass: " . $user->password . '<br />';
+  echo "Name: " . $user->full_name() . '<br /> <br />';
+}
 ?>
 
 
