@@ -61,6 +61,9 @@ foreach ($users as $user){
   echo "pass: " . $user->password . '<br />';
   echo "Name: " . $user->full_name() . '<br /> <br />';
 }
+
+tracedump_log();
+
 ?>
 
 
@@ -70,14 +73,6 @@ foreach ($users as $user){
 
 <?php
   include_page_template('footer');
-
-//// Dump x
-//ob_start();
-//var_dump(debug_backtrace());
-//$contents = ob_get_contents();
-//ob_end_clean();
-//log_action($contents);
-// error_log($contents);
 
 
 ?>

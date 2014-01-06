@@ -10,13 +10,11 @@ require_once(dirname(__FILE__) . '/../../includes/session.php');
 
 if (!$session->is_logged_in()) { redirect_to("login.php"); }
 
-?>
 
-<?php
+
 require_once('../../includes/header.php');
 require_once('../../includes/nav.php');
 ?>
-
         <div class="row">
           <div class="col-lg-12">
             <h1>Admin <small>Enter Your Data</small></h1>
@@ -41,16 +39,24 @@ require_once('../../includes/nav.php');
 
 
 
-
 <?php
-$session->logout();
-?>
-
-
-<?php 
-if(isset($database)) { $database->close_connection(); }
-
 require_once('../../includes/footer.php');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$session->logout();
+if(isset($database)) { $database->close_connection(); }
 
 
 

@@ -124,4 +124,3 @@ class MySQLDatabase {
 $database = new MySQLDatabase();
 $db =& $database;
 
-?>

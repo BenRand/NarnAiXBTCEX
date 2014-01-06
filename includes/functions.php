@@ -14,7 +14,7 @@
  */
 
 	function output_message($message=" "){
-
+        echo "<font color=red>" . $message . "</font>";
 
 	}
 
@@ -51,7 +51,7 @@
 		if($handle = fopen($logfile, 'a')) { // 'a' for append
 
 			$timestamp = strftime("%Y-%m-%d %H:%M:%S", time());
-			$content = "{$timestamp} : {$message} : {$action} \n";
+			$content = "{$timestamp} : {$action} : {$message} \n";
 
 			fwrite($handle, $content);
 			fclose($handle);
@@ -60,6 +60,19 @@
 		}
 
 	}
+
+    function tracedump_log(){
+        // Dump x
+        ob_start();
+        var_dump(debug_backtrace());
+        $contents = ob_get_contents();
+        ob_end_clean();
+        log_action('Trace Dump',$contents);
+        echo "<font color='red'>SYSTEM CALLED tracedump_log(), check /logs/log.txt </font><br /><br />";
+        // error_log($contents);
+    }
+
+
 	//
 	//	SNIPITS
 	//
@@ -71,4 +84,3 @@
 	//	
 	//	
 
-?>

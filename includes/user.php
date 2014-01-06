@@ -26,14 +26,14 @@ class User {
 		global $database;
 		// $result_set = $database->query("SELECT * FROM user");
 		// return $result_set;
-		return self::find_by_sql("SELECT * FROM user");
+		return self::find_by_sql("SELECT * FROM users");
 	}
 	public static function find_by_id($id=0){
 		global $database;
 		// $result_set = $database->query("SELECT * FROM user WHERE id={$id}");
 		// $found = $database->fetch_array($result_set);
 		// return $found;
-		$result_array = self::find_by_sql("SELECT * FROM user WHERE id={$id} LIMIT 1");
+		$result_array = self::find_by_sql("SELECT * FROM users WHERE id={$id} LIMIT 1");
 		return !empty($result_array) ? array_shift($result_array) : false;
 	}
 	public static function find_by_sql($sql=""){
@@ -49,7 +49,7 @@ class User {
 	public static function authenticate($username="", $password=""){
 		global $database;
 
-		$sql = "SELECT * FROM user ";
+		$sql = "SELECT * FROM users ";
 		$sql .= "WHERE username = '{$username}' ";
 		$sql .= "AND password = '{$password}' ";
 		$sql .= "LIMIT 1";
@@ -97,4 +97,3 @@ error_log($contents);
 }
 
 
-?>

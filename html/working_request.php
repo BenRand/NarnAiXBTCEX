@@ -13,7 +13,7 @@
 ini_set('display_errors', 'On');
 error_reporting(E_ALL);
 //require("/Users/sebastianusami/Dropbox/Coding/The_Farm/www/coinbase-php/lib/Coinbase.php");
-require_once("Coinbase.php");
+require_once("../includes/Coinbase.php");
 //require_once("www/coinbase-php/lib/Coinbase.php");
 //require_once("coinbase-php/lib/Coinbase.php");
 ?>
