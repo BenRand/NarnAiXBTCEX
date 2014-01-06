@@ -1,6 +1,13 @@
 <?php
-error_reporting(E_ALL);
-ini_set('display_errors', '1');
+/**
+ * Created by PhpStorm.
+ * User: sebastianusami
+ * Date: 1/6/14
+ * Time: 4:00 PM
+ */
+
+//error_reporting(E_ALL);
+//ini_set('display_errors', '1');
 
 require_once($_SERVER["DOCUMENT_ROOT"] . '/../includes/init.php');
 
@@ -64,12 +71,12 @@ foreach ($users as $user){
 <?php
   include_page_template('footer');
 
-// Dump x
-ob_start();
-var_dump(debug_backtrace());
-$contents = ob_get_contents();
-ob_end_clean();
-log_action($contents);
+//// Dump x
+//ob_start();
+//var_dump(debug_backtrace());
+//$contents = ob_get_contents();
+//ob_end_clean();
+//log_action($contents);
 // error_log($contents);
 
 

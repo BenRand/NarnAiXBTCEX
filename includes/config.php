@@ -1,9 +1,10 @@
 <?php
 
 /**
- * Systems Variables
- *
- * This is a description
+ * Created by PhpStorm.
+ * User: sebastianusami
+ * Date: 1/6/14
+ * Time: 4:01 PM
  */
 
 //Local Dev Database Constants
