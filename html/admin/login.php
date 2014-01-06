@@ -1,6 +1,40 @@
 <?php
+/**
+ * Created by PhpStorm.
+ * User: sebastianusami
+ * Date: 1/6/14
+ * Time: 4:01 PM
+ */
 
 require_once($_SERVER["DOCUMENT_ROOT"] . '/../includes/init.php');
+
+
+if ($session->is_logged_in()) { redirect_to("index.php"); }
+
+if (isset($_POST['submit'])){     // form submitted
+    $username = trim($_POST['username']);
+    $password = trim($_POST['password']);
+
+    // check database to see if user exists
+    $found_user = User::authenticate($username, $password);
+
+
+    if ($found_user){
+      $session->login($found_user);
+      redirect_to("index.php");
+    } else {
+      //username password combo not found
+      $message = "username/password combination incorrect";
+    }
+
+} else { // for not subbitedd
+    $username = "";
+    $password = "";
+
+}
+
+
+
 
 require_once('../../includes/header.php');
 require_once('../../includes/nav.php');
@@ -23,7 +57,7 @@ require_once('../../includes/nav.php');
           </div>
         </div>
 
-
+        <?php echo output_message($message); ?>
     <form action="login.php" method="post">
       <table>
         <tr>
@@ -52,5 +86,15 @@ require_once('../../includes/nav.php');
   include_page_template('footer');
 
   if(isset($database)) { $database->close_connection(); }
+
+// Dump x
+ob_start();
+var_dump(debug_backtrace());
+$contents = ob_get_contents();
+ob_end_clean();
+log_action($contents);
+// error_log($contents);
+
+
 ?>
 

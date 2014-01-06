@@ -1,5 +1,11 @@
 <?php
-/**
+ /**
+ * Created by PhpStorm.
+ * User: sebastianusami
+ * Date: 1/6/14
+ * Time: 4:01 PM
+ *
+ *
  * Database access page
  *
  *   @todo  need to work to make more mysql agnositc and implement PDO
@@ -10,7 +16,7 @@ require_once("config.php");
 /**
  * Database object - mysql
  *
- * Page souce should not call directly.
+ * Page source should not call directly.
  */
 class MySQLDatabase {
 	
@@ -22,7 +28,7 @@ class MySQLDatabase {
 	
   function __construct() {
     $this->open_connection();
-/**   
+/**
  *     
 * @todo  remove magic quote usage  
 *
@@ -118,4 +124,3 @@ class MySQLDatabase {
 $database = new MySQLDatabase();
 $db =& $database;
 
-?>

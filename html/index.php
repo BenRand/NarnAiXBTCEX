@@ -1,7 +1,13 @@
 <?php
-// error_reporting(E_ALL);
-// ini_set('display_errors', '1');
-// echo 'DocRoot: ' . $_SERVER["DOCUMENT_ROOT"] . '<br><br>';
+/**
+ * Created by PhpStorm.
+ * User: sebastianusami
+ * Date: 1/6/14
+ * Time: 4:00 PM
+ */
+
+//error_reporting(E_ALL);
+//ini_set('display_errors', '1');
 
 require_once($_SERVER["DOCUMENT_ROOT"] . '/../includes/init.php');
 
@@ -33,6 +39,14 @@ log_action('Page Load', __FILE__);
 
 
 <?php
+// if (isset($database)){echo "true";} else { echo "false";}
+// echo "<br />";
+
+// $sql = "SELECT * FROM user WHERE id=5";
+// $result = $database->query($sql);
+// $found_user = $database->fetch_array($result);
+// echo $found_user['username'];
+
 
 $record = User::find_by_id(1);
 echo $record->full_name() . '<br>';
@@ -42,13 +56,19 @@ echo $record->email . '<br /><br />';
 $users = User::find_all();
 // echo $users[];
 
+$salt = 'saltmotherfucker';
+
 foreach ($users as $user){
   echo "User: " . $user->username . '<br />';
   echo "pass: " . $user->password . '<br />';
-  echo "Name: " . $user->full_name() . '<br /> <br />';
+  echo "Name: " . $user->full_name() . '<br />';
+  echo "Hash: " . $user->password_hash . '<br /><br />';
+//  echo "password_hash: "  . sha1($salt.$user->password) . '<br /><br />';
 }
-?>
 
+tracedump_log();
+
+?>
 
 
 
@@ -56,5 +76,7 @@ foreach ($users as $user){
 
 <?php
   include_page_template('footer');
+
+
 ?>
 

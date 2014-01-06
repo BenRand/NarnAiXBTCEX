@@ -1,4 +1,11 @@
 <?php
+/**
+ * Created by PhpStorm.
+ * User: sebastianusami
+ * Date: 1/6/14
+ * Time: 4:01 PM
+ */
+
 // error_reporting(E_ALL);
 // ini_set('display_errors', '1');
 
@@ -20,4 +27,3 @@ require_once('database.php');
 require_once('user.php');
 // require_once('nav.php');
 
-?>

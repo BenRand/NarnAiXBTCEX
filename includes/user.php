@@ -1,4 +1,10 @@
 <?php
+/**
+ * Created by PhpStorm.
+ * User: sebastianusami
+ * Date: 1/6/14
+ * Time: 4:01 PM
+ */
 
 require_once('database.php');
 
@@ -15,19 +21,21 @@ class User {
 	public $first_name;
 	public $last_name;
 	public $email;
+    public $password_hash;
+    public $salt;
 
 	public static function find_all(){
 		global $database;
 		// $result_set = $database->query("SELECT * FROM user");
 		// return $result_set;
-		return self::find_by_sql("SELECT * FROM user");
+		return self::find_by_sql("SELECT * FROM users");
 	}
 	public static function find_by_id($id=0){
 		global $database;
 		// $result_set = $database->query("SELECT * FROM user WHERE id={$id}");
 		// $found = $database->fetch_array($result_set);
 		// return $found;
-		$result_array = self::find_by_sql("SELECT * FROM user WHERE id={$id} LIMIT 1");
+		$result_array = self::find_by_sql("SELECT * FROM users WHERE id={$id} LIMIT 1");
 		return !empty($result_array) ? array_shift($result_array) : false;
 	}
 	public static function find_by_sql($sql=""){
@@ -39,7 +47,22 @@ class User {
 			$object_array[] = self::instantiate($row);
 		}
 		return $object_array;
+	}
+	public static function authenticate($username="", $password=""){
+		global $database;
 
+        /** @var  $password_hash
+         *  TODO: Fix password hash.  needs dynamic salt.
+         */
+        $password_hash = sha1('saltmotherfucker' . $password);
+
+		$sql = "SELECT * FROM users ";
+		$sql .= "WHERE username = '{$username}' ";
+		$sql .= "AND password_hash = '{$password_hash}' ";
+		$sql .= "LIMIT 1";
+
+		$result_array = self::find_by_sql($sql);
+		return !empty($result_array) ? array_shift($result_array) : false;
 	}
 	public function full_name(){
 		if(isset($this->first_name) && isset($this->last_name)){
@@ -62,6 +85,14 @@ class User {
 				$object->$attribute = $value;
 			}
 		}
+		
+// Dump x
+ob_start();
+var_dump(debug_backtrace());
+$contents = ob_get_contents();
+ob_end_clean();
+log_action($contents);
+error_log($contents);
 		return $object;
 
 	}
@@ -73,4 +104,3 @@ class User {
 }
 
 
-?>
