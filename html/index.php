@@ -56,16 +56,19 @@ echo $record->email . '<br /><br />';
 $users = User::find_all();
 // echo $users[];
 
+$salt = 'saltmotherfucker';
+
 foreach ($users as $user){
   echo "User: " . $user->username . '<br />';
   echo "pass: " . $user->password . '<br />';
-  echo "Name: " . $user->full_name() . '<br /> <br />';
+  echo "Name: " . $user->full_name() . '<br />';
+  echo "Hash: " . $user->password_hash . '<br /><br />';
+//  echo "password_hash: "  . sha1($salt.$user->password) . '<br /><br />';
 }
 
 tracedump_log();
 
 ?>
-
 
 
 

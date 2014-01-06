@@ -2801,3 +2801,5201 @@
   }
 }
  
+2014-01-06 23:16:32 : Page Load : /Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php 
+2014-01-06 23:16:32 : array(3) {
+  [0]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(46)
+    ["function"]=>
+    string(11) "instantiate"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &array(30) {
+        [0]=>
+        string(1) "1"
+        ["id"]=>
+        string(1) "1"
+        [1]=>
+        string(11) "prophetnite"
+        ["username"]=>
+        string(11) "prophetnite"
+        [2]=>
+        string(7) "prophet"
+        ["first_name"]=>
+        string(7) "prophet"
+        [3]=>
+        string(10) "mycoolpass"
+        ["password"]=>
+        string(10) "mycoolpass"
+        [4]=>
+        string(0) ""
+        ["password_hash"]=>
+        string(0) ""
+        [5]=>
+        string(23) "prophet@prophetnite.com"
+        ["email"]=>
+        string(23) "prophet@prophetnite.com"
+        [6]=>
+        string(20) "lakjshdflkjashfjklsh"
+        ["user_guid"]=>
+        string(20) "lakjshdflkjashfjklsh"
+        [7]=>
+        NULL
+        ["user_email_authenticated"]=>
+        NULL
+        [8]=>
+        NULL
+        ["user_email_token"]=>
+        NULL
+        [9]=>
+        NULL
+        ["user_email_token_expires"]=>
+        NULL
+        [10]=>
+        NULL
+        ["user_registration"]=>
+        NULL
+        [11]=>
+        NULL
+        ["user_newpass"]=>
+        NULL
+        [12]=>
+        string(1) "0"
+        ["user_editcount"]=>
+        string(1) "0"
+        [13]=>
+        NULL
+        ["user_real_mn"]=>
+        NULL
+        [14]=>
+        string(4) "nite"
+        ["last_name"]=>
+        string(4) "nite"
+      }
+    }
+  }
+  [1]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(37)
+    ["function"]=>
+    string(11) "find_by_sql"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &string(38) "SELECT * FROM users WHERE id=1 LIMIT 1"
+    }
+  }
+  [2]=>
+  array(6) {
+    ["file"]=>
+    string(64) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php"
+    ["line"]=>
+    int(51)
+    ["function"]=>
+    string(10) "find_by_id"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &int(1)
+    }
+  }
+}
+ :  
+2014-01-06 23:16:32 : array(3) {
+  [0]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(46)
+    ["function"]=>
+    string(11) "instantiate"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &array(30) {
+        [0]=>
+        string(1) "1"
+        ["id"]=>
+        string(1) "1"
+        [1]=>
+        string(11) "prophetnite"
+        ["username"]=>
+        string(11) "prophetnite"
+        [2]=>
+        string(7) "prophet"
+        ["first_name"]=>
+        string(7) "prophet"
+        [3]=>
+        string(10) "mycoolpass"
+        ["password"]=>
+        string(10) "mycoolpass"
+        [4]=>
+        string(0) ""
+        ["password_hash"]=>
+        string(0) ""
+        [5]=>
+        string(23) "prophet@prophetnite.com"
+        ["email"]=>
+        string(23) "prophet@prophetnite.com"
+        [6]=>
+        string(20) "lakjshdflkjashfjklsh"
+        ["user_guid"]=>
+        string(20) "lakjshdflkjashfjklsh"
+        [7]=>
+        NULL
+        ["user_email_authenticated"]=>
+        NULL
+        [8]=>
+        NULL
+        ["user_email_token"]=>
+        NULL
+        [9]=>
+        NULL
+        ["user_email_token_expires"]=>
+        NULL
+        [10]=>
+        NULL
+        ["user_registration"]=>
+        NULL
+        [11]=>
+        NULL
+        ["user_newpass"]=>
+        NULL
+        [12]=>
+        string(1) "0"
+        ["user_editcount"]=>
+        string(1) "0"
+        [13]=>
+        NULL
+        ["user_real_mn"]=>
+        NULL
+        [14]=>
+        string(4) "nite"
+        ["last_name"]=>
+        string(4) "nite"
+      }
+    }
+  }
+  [1]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(30)
+    ["function"]=>
+    string(11) "find_by_sql"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &string(19) "SELECT * FROM users"
+    }
+  }
+  [2]=>
+  array(6) {
+    ["file"]=>
+    string(64) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php"
+    ["line"]=>
+    int(56)
+    ["function"]=>
+    string(8) "find_all"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(0) {
+    }
+  }
+}
+ :  
+2014-01-06 23:16:32 : array(3) {
+  [0]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(46)
+    ["function"]=>
+    string(11) "instantiate"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &array(30) {
+        [0]=>
+        string(1) "2"
+        ["id"]=>
+        string(1) "2"
+        [1]=>
+        string(9) "testuser2"
+        ["username"]=>
+        string(9) "testuser2"
+        [2]=>
+        string(3) "bob"
+        ["first_name"]=>
+        string(3) "bob"
+        [3]=>
+        string(9) "YUPHASHED"
+        ["password"]=>
+        string(9) "YUPHASHED"
+        [4]=>
+        string(0) ""
+        ["password_hash"]=>
+        string(0) ""
+        [5]=>
+        string(17) "bob@localhost.com"
+        ["email"]=>
+        string(17) "bob@localhost.com"
+        [6]=>
+        string(22) "jkhiuywiruyweriuyweriu"
+        ["user_guid"]=>
+        string(22) "jkhiuywiruyweriuyweriu"
+        [7]=>
+        NULL
+        ["user_email_authenticated"]=>
+        NULL
+        [8]=>
+        NULL
+        ["user_email_token"]=>
+        NULL
+        [9]=>
+        NULL
+        ["user_email_token_expires"]=>
+        NULL
+        [10]=>
+        NULL
+        ["user_registration"]=>
+        NULL
+        [11]=>
+        NULL
+        ["user_newpass"]=>
+        NULL
+        [12]=>
+        string(1) "1"
+        ["user_editcount"]=>
+        string(1) "1"
+        [13]=>
+        NULL
+        ["user_real_mn"]=>
+        NULL
+        [14]=>
+        string(7) "walkers"
+        ["last_name"]=>
+        string(7) "walkers"
+      }
+    }
+  }
+  [1]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(30)
+    ["function"]=>
+    string(11) "find_by_sql"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &string(19) "SELECT * FROM users"
+    }
+  }
+  [2]=>
+  array(6) {
+    ["file"]=>
+    string(64) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php"
+    ["line"]=>
+    int(56)
+    ["function"]=>
+    string(8) "find_all"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(0) {
+    }
+  }
+}
+ :  
+2014-01-06 23:16:32 : array(3) {
+  [0]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(46)
+    ["function"]=>
+    string(11) "instantiate"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &array(30) {
+        [0]=>
+        string(1) "5"
+        ["id"]=>
+        string(1) "5"
+        [1]=>
+        string(11) "coolroger65"
+        ["username"]=>
+        string(11) "coolroger65"
+        [2]=>
+        string(5) "roger"
+        ["first_name"]=>
+        string(5) "roger"
+        [3]=>
+        string(9) "secretpwd"
+        ["password"]=>
+        string(9) "secretpwd"
+        [4]=>
+        string(0) ""
+        ["password_hash"]=>
+        string(0) ""
+        [5]=>
+        NULL
+        ["email"]=>
+        NULL
+        [6]=>
+        string(0) ""
+        ["user_guid"]=>
+        string(0) ""
+        [7]=>
+        NULL
+        ["user_email_authenticated"]=>
+        NULL
+        [8]=>
+        NULL
+        ["user_email_token"]=>
+        NULL
+        [9]=>
+        NULL
+        ["user_email_token_expires"]=>
+        NULL
+        [10]=>
+        NULL
+        ["user_registration"]=>
+        NULL
+        [11]=>
+        NULL
+        ["user_newpass"]=>
+        NULL
+        [12]=>
+        string(1) "0"
+        ["user_editcount"]=>
+        string(1) "0"
+        [13]=>
+        NULL
+        ["user_real_mn"]=>
+        NULL
+        [14]=>
+        string(5) "flynn"
+        ["last_name"]=>
+        string(5) "flynn"
+      }
+    }
+  }
+  [1]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(30)
+    ["function"]=>
+    string(11) "find_by_sql"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &string(19) "SELECT * FROM users"
+    }
+  }
+  [2]=>
+  array(6) {
+    ["file"]=>
+    string(64) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php"
+    ["line"]=>
+    int(56)
+    ["function"]=>
+    string(8) "find_all"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(0) {
+    }
+  }
+}
+ :  
+2014-01-06 23:16:32 : Trace Dump : array(1) {
+  [0]=>
+  array(4) {
+    ["file"]=>
+    string(64) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php"
+    ["line"]=>
+    int(66)
+    ["function"]=>
+    string(13) "tracedump_log"
+    ["args"]=>
+    array(0) {
+    }
+  }
+}
+ 
+2014-01-06 23:18:34 : Page Load : /Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php 
+2014-01-06 23:18:34 : array(3) {
+  [0]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(46)
+    ["function"]=>
+    string(11) "instantiate"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &array(30) {
+        [0]=>
+        string(1) "1"
+        ["id"]=>
+        string(1) "1"
+        [1]=>
+        string(11) "prophetnite"
+        ["username"]=>
+        string(11) "prophetnite"
+        [2]=>
+        string(7) "prophet"
+        ["first_name"]=>
+        string(7) "prophet"
+        [3]=>
+        string(10) "mycoolpass"
+        ["password"]=>
+        string(10) "mycoolpass"
+        [4]=>
+        string(0) ""
+        ["password_hash"]=>
+        string(0) ""
+        [5]=>
+        string(23) "prophet@prophetnite.com"
+        ["email"]=>
+        string(23) "prophet@prophetnite.com"
+        [6]=>
+        string(20) "lakjshdflkjashfjklsh"
+        ["user_guid"]=>
+        string(20) "lakjshdflkjashfjklsh"
+        [7]=>
+        NULL
+        ["user_email_authenticated"]=>
+        NULL
+        [8]=>
+        NULL
+        ["user_email_token"]=>
+        NULL
+        [9]=>
+        NULL
+        ["user_email_token_expires"]=>
+        NULL
+        [10]=>
+        NULL
+        ["user_registration"]=>
+        NULL
+        [11]=>
+        NULL
+        ["user_newpass"]=>
+        NULL
+        [12]=>
+        string(1) "0"
+        ["user_editcount"]=>
+        string(1) "0"
+        [13]=>
+        NULL
+        ["user_real_mn"]=>
+        NULL
+        [14]=>
+        string(4) "nite"
+        ["last_name"]=>
+        string(4) "nite"
+      }
+    }
+  }
+  [1]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(37)
+    ["function"]=>
+    string(11) "find_by_sql"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &string(38) "SELECT * FROM users WHERE id=1 LIMIT 1"
+    }
+  }
+  [2]=>
+  array(6) {
+    ["file"]=>
+    string(64) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php"
+    ["line"]=>
+    int(51)
+    ["function"]=>
+    string(10) "find_by_id"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &int(1)
+    }
+  }
+}
+ :  
+2014-01-06 23:18:34 : array(3) {
+  [0]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(46)
+    ["function"]=>
+    string(11) "instantiate"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &array(30) {
+        [0]=>
+        string(1) "1"
+        ["id"]=>
+        string(1) "1"
+        [1]=>
+        string(11) "prophetnite"
+        ["username"]=>
+        string(11) "prophetnite"
+        [2]=>
+        string(7) "prophet"
+        ["first_name"]=>
+        string(7) "prophet"
+        [3]=>
+        string(10) "mycoolpass"
+        ["password"]=>
+        string(10) "mycoolpass"
+        [4]=>
+        string(0) ""
+        ["password_hash"]=>
+        string(0) ""
+        [5]=>
+        string(23) "prophet@prophetnite.com"
+        ["email"]=>
+        string(23) "prophet@prophetnite.com"
+        [6]=>
+        string(20) "lakjshdflkjashfjklsh"
+        ["user_guid"]=>
+        string(20) "lakjshdflkjashfjklsh"
+        [7]=>
+        NULL
+        ["user_email_authenticated"]=>
+        NULL
+        [8]=>
+        NULL
+        ["user_email_token"]=>
+        NULL
+        [9]=>
+        NULL
+        ["user_email_token_expires"]=>
+        NULL
+        [10]=>
+        NULL
+        ["user_registration"]=>
+        NULL
+        [11]=>
+        NULL
+        ["user_newpass"]=>
+        NULL
+        [12]=>
+        string(1) "0"
+        ["user_editcount"]=>
+        string(1) "0"
+        [13]=>
+        NULL
+        ["user_real_mn"]=>
+        NULL
+        [14]=>
+        string(4) "nite"
+        ["last_name"]=>
+        string(4) "nite"
+      }
+    }
+  }
+  [1]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(30)
+    ["function"]=>
+    string(11) "find_by_sql"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &string(19) "SELECT * FROM users"
+    }
+  }
+  [2]=>
+  array(6) {
+    ["file"]=>
+    string(64) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php"
+    ["line"]=>
+    int(56)
+    ["function"]=>
+    string(8) "find_all"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(0) {
+    }
+  }
+}
+ :  
+2014-01-06 23:18:34 : array(3) {
+  [0]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(46)
+    ["function"]=>
+    string(11) "instantiate"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &array(30) {
+        [0]=>
+        string(1) "2"
+        ["id"]=>
+        string(1) "2"
+        [1]=>
+        string(9) "testuser2"
+        ["username"]=>
+        string(9) "testuser2"
+        [2]=>
+        string(3) "bob"
+        ["first_name"]=>
+        string(3) "bob"
+        [3]=>
+        string(9) "YUPHASHED"
+        ["password"]=>
+        string(9) "YUPHASHED"
+        [4]=>
+        string(0) ""
+        ["password_hash"]=>
+        string(0) ""
+        [5]=>
+        string(17) "bob@localhost.com"
+        ["email"]=>
+        string(17) "bob@localhost.com"
+        [6]=>
+        string(22) "jkhiuywiruyweriuyweriu"
+        ["user_guid"]=>
+        string(22) "jkhiuywiruyweriuyweriu"
+        [7]=>
+        NULL
+        ["user_email_authenticated"]=>
+        NULL
+        [8]=>
+        NULL
+        ["user_email_token"]=>
+        NULL
+        [9]=>
+        NULL
+        ["user_email_token_expires"]=>
+        NULL
+        [10]=>
+        NULL
+        ["user_registration"]=>
+        NULL
+        [11]=>
+        NULL
+        ["user_newpass"]=>
+        NULL
+        [12]=>
+        string(1) "1"
+        ["user_editcount"]=>
+        string(1) "1"
+        [13]=>
+        NULL
+        ["user_real_mn"]=>
+        NULL
+        [14]=>
+        string(7) "walkers"
+        ["last_name"]=>
+        string(7) "walkers"
+      }
+    }
+  }
+  [1]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(30)
+    ["function"]=>
+    string(11) "find_by_sql"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &string(19) "SELECT * FROM users"
+    }
+  }
+  [2]=>
+  array(6) {
+    ["file"]=>
+    string(64) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php"
+    ["line"]=>
+    int(56)
+    ["function"]=>
+    string(8) "find_all"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(0) {
+    }
+  }
+}
+ :  
+2014-01-06 23:18:34 : array(3) {
+  [0]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(46)
+    ["function"]=>
+    string(11) "instantiate"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &array(30) {
+        [0]=>
+        string(1) "5"
+        ["id"]=>
+        string(1) "5"
+        [1]=>
+        string(11) "coolroger65"
+        ["username"]=>
+        string(11) "coolroger65"
+        [2]=>
+        string(5) "roger"
+        ["first_name"]=>
+        string(5) "roger"
+        [3]=>
+        string(9) "secretpwd"
+        ["password"]=>
+        string(9) "secretpwd"
+        [4]=>
+        string(0) ""
+        ["password_hash"]=>
+        string(0) ""
+        [5]=>
+        NULL
+        ["email"]=>
+        NULL
+        [6]=>
+        string(0) ""
+        ["user_guid"]=>
+        string(0) ""
+        [7]=>
+        NULL
+        ["user_email_authenticated"]=>
+        NULL
+        [8]=>
+        NULL
+        ["user_email_token"]=>
+        NULL
+        [9]=>
+        NULL
+        ["user_email_token_expires"]=>
+        NULL
+        [10]=>
+        NULL
+        ["user_registration"]=>
+        NULL
+        [11]=>
+        NULL
+        ["user_newpass"]=>
+        NULL
+        [12]=>
+        string(1) "0"
+        ["user_editcount"]=>
+        string(1) "0"
+        [13]=>
+        NULL
+        ["user_real_mn"]=>
+        NULL
+        [14]=>
+        string(5) "flynn"
+        ["last_name"]=>
+        string(5) "flynn"
+      }
+    }
+  }
+  [1]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(30)
+    ["function"]=>
+    string(11) "find_by_sql"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &string(19) "SELECT * FROM users"
+    }
+  }
+  [2]=>
+  array(6) {
+    ["file"]=>
+    string(64) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php"
+    ["line"]=>
+    int(56)
+    ["function"]=>
+    string(8) "find_all"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(0) {
+    }
+  }
+}
+ :  
+2014-01-06 23:18:34 : Trace Dump : array(1) {
+  [0]=>
+  array(4) {
+    ["file"]=>
+    string(64) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php"
+    ["line"]=>
+    int(68)
+    ["function"]=>
+    string(13) "tracedump_log"
+    ["args"]=>
+    array(0) {
+    }
+  }
+}
+ 
+2014-01-06 23:23:31 : Page Load : /Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php 
+2014-01-06 23:23:53 : Page Load : /Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php 
+2014-01-06 23:23:56 : Page Load : /Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php 
+2014-01-06 23:25:44 : Page Load : /Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php 
+2014-01-06 23:25:44 : array(3) {
+  [0]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(46)
+    ["function"]=>
+    string(11) "instantiate"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &array(26) {
+        [0]=>
+        string(1) "1"
+        ["id"]=>
+        string(1) "1"
+        [1]=>
+        string(11) "prophetnite"
+        ["username"]=>
+        string(11) "prophetnite"
+        [2]=>
+        string(7) "prophet"
+        ["first_name"]=>
+        string(7) "prophet"
+        [3]=>
+        string(10) "mycoolpass"
+        ["pass_hash"]=>
+        string(10) "mycoolpass"
+        [4]=>
+        string(23) "prophet@prophetnite.com"
+        ["email"]=>
+        string(23) "prophet@prophetnite.com"
+        [5]=>
+        string(20) "lakjshdflkjashfjklsh"
+        ["user_guid"]=>
+        string(20) "lakjshdflkjashfjklsh"
+        [6]=>
+        NULL
+        ["user_email_authenticated"]=>
+        NULL
+        [7]=>
+        NULL
+        ["user_email_token"]=>
+        NULL
+        [8]=>
+        NULL
+        ["user_email_token_expires"]=>
+        NULL
+        [9]=>
+        NULL
+        ["user_registration"]=>
+        NULL
+        [10]=>
+        NULL
+        ["user_newpass"]=>
+        NULL
+        [11]=>
+        string(1) "0"
+        ["user_editcount"]=>
+        string(1) "0"
+        [12]=>
+        string(4) "nite"
+        ["last_name"]=>
+        string(4) "nite"
+      }
+    }
+  }
+  [1]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(37)
+    ["function"]=>
+    string(11) "find_by_sql"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &string(38) "SELECT * FROM users WHERE id=1 LIMIT 1"
+    }
+  }
+  [2]=>
+  array(6) {
+    ["file"]=>
+    string(64) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php"
+    ["line"]=>
+    int(51)
+    ["function"]=>
+    string(10) "find_by_id"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &int(1)
+    }
+  }
+}
+ :  
+2014-01-06 23:25:44 : array(3) {
+  [0]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(46)
+    ["function"]=>
+    string(11) "instantiate"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &array(26) {
+        [0]=>
+        string(1) "1"
+        ["id"]=>
+        string(1) "1"
+        [1]=>
+        string(11) "prophetnite"
+        ["username"]=>
+        string(11) "prophetnite"
+        [2]=>
+        string(7) "prophet"
+        ["first_name"]=>
+        string(7) "prophet"
+        [3]=>
+        string(10) "mycoolpass"
+        ["pass_hash"]=>
+        string(10) "mycoolpass"
+        [4]=>
+        string(23) "prophet@prophetnite.com"
+        ["email"]=>
+        string(23) "prophet@prophetnite.com"
+        [5]=>
+        string(20) "lakjshdflkjashfjklsh"
+        ["user_guid"]=>
+        string(20) "lakjshdflkjashfjklsh"
+        [6]=>
+        NULL
+        ["user_email_authenticated"]=>
+        NULL
+        [7]=>
+        NULL
+        ["user_email_token"]=>
+        NULL
+        [8]=>
+        NULL
+        ["user_email_token_expires"]=>
+        NULL
+        [9]=>
+        NULL
+        ["user_registration"]=>
+        NULL
+        [10]=>
+        NULL
+        ["user_newpass"]=>
+        NULL
+        [11]=>
+        string(1) "0"
+        ["user_editcount"]=>
+        string(1) "0"
+        [12]=>
+        string(4) "nite"
+        ["last_name"]=>
+        string(4) "nite"
+      }
+    }
+  }
+  [1]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(30)
+    ["function"]=>
+    string(11) "find_by_sql"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &string(19) "SELECT * FROM users"
+    }
+  }
+  [2]=>
+  array(6) {
+    ["file"]=>
+    string(64) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php"
+    ["line"]=>
+    int(56)
+    ["function"]=>
+    string(8) "find_all"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(0) {
+    }
+  }
+}
+ :  
+2014-01-06 23:25:44 : array(3) {
+  [0]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(46)
+    ["function"]=>
+    string(11) "instantiate"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &array(26) {
+        [0]=>
+        string(1) "2"
+        ["id"]=>
+        string(1) "2"
+        [1]=>
+        string(9) "testuser2"
+        ["username"]=>
+        string(9) "testuser2"
+        [2]=>
+        string(3) "bob"
+        ["first_name"]=>
+        string(3) "bob"
+        [3]=>
+        string(9) "YUPHASHED"
+        ["pass_hash"]=>
+        string(9) "YUPHASHED"
+        [4]=>
+        string(17) "bob@localhost.com"
+        ["email"]=>
+        string(17) "bob@localhost.com"
+        [5]=>
+        string(22) "jkhiuywiruyweriuyweriu"
+        ["user_guid"]=>
+        string(22) "jkhiuywiruyweriuyweriu"
+        [6]=>
+        NULL
+        ["user_email_authenticated"]=>
+        NULL
+        [7]=>
+        NULL
+        ["user_email_token"]=>
+        NULL
+        [8]=>
+        NULL
+        ["user_email_token_expires"]=>
+        NULL
+        [9]=>
+        NULL
+        ["user_registration"]=>
+        NULL
+        [10]=>
+        NULL
+        ["user_newpass"]=>
+        NULL
+        [11]=>
+        string(1) "1"
+        ["user_editcount"]=>
+        string(1) "1"
+        [12]=>
+        string(7) "walkers"
+        ["last_name"]=>
+        string(7) "walkers"
+      }
+    }
+  }
+  [1]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(30)
+    ["function"]=>
+    string(11) "find_by_sql"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &string(19) "SELECT * FROM users"
+    }
+  }
+  [2]=>
+  array(6) {
+    ["file"]=>
+    string(64) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php"
+    ["line"]=>
+    int(56)
+    ["function"]=>
+    string(8) "find_all"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(0) {
+    }
+  }
+}
+ :  
+2014-01-06 23:25:44 : Trace Dump : array(1) {
+  [0]=>
+  array(4) {
+    ["file"]=>
+    string(64) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php"
+    ["line"]=>
+    int(68)
+    ["function"]=>
+    string(13) "tracedump_log"
+    ["args"]=>
+    array(0) {
+    }
+  }
+}
+ 
+2014-01-06 23:30:29 : Page Load : /Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php 
+2014-01-06 23:30:29 : array(3) {
+  [0]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(47)
+    ["function"]=>
+    string(11) "instantiate"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &array(30) {
+        [0]=>
+        string(1) "1"
+        ["id"]=>
+        string(1) "1"
+        [1]=>
+        string(11) "prophetnite"
+        ["username"]=>
+        string(11) "prophetnite"
+        [2]=>
+        string(7) "prophet"
+        ["first_name"]=>
+        string(7) "prophet"
+        [3]=>
+        string(10) "mycoolpass"
+        ["password"]=>
+        string(10) "mycoolpass"
+        [4]=>
+        string(23) "prophet@prophetnite.com"
+        ["email"]=>
+        string(23) "prophet@prophetnite.com"
+        [5]=>
+        string(20) "lakjshdflkjashfjklsh"
+        ["user_guid"]=>
+        string(20) "lakjshdflkjashfjklsh"
+        [6]=>
+        NULL
+        ["user_email_authenticated"]=>
+        NULL
+        [7]=>
+        NULL
+        ["user_email_token"]=>
+        NULL
+        [8]=>
+        NULL
+        ["user_email_token_expires"]=>
+        NULL
+        [9]=>
+        NULL
+        ["user_registration"]=>
+        NULL
+        [10]=>
+        NULL
+        ["user_newpass"]=>
+        NULL
+        [11]=>
+        string(1) "0"
+        ["user_editcount"]=>
+        string(1) "0"
+        [12]=>
+        string(4) "nite"
+        ["last_name"]=>
+        string(4) "nite"
+        [13]=>
+        NULL
+        ["password_hash"]=>
+        NULL
+        [14]=>
+        NULL
+        ["salt"]=>
+        NULL
+      }
+    }
+  }
+  [1]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(38)
+    ["function"]=>
+    string(11) "find_by_sql"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &string(38) "SELECT * FROM users WHERE id=1 LIMIT 1"
+    }
+  }
+  [2]=>
+  array(6) {
+    ["file"]=>
+    string(64) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php"
+    ["line"]=>
+    int(51)
+    ["function"]=>
+    string(10) "find_by_id"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &int(1)
+    }
+  }
+}
+ :  
+2014-01-06 23:30:29 : array(3) {
+  [0]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(47)
+    ["function"]=>
+    string(11) "instantiate"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &array(30) {
+        [0]=>
+        string(1) "1"
+        ["id"]=>
+        string(1) "1"
+        [1]=>
+        string(11) "prophetnite"
+        ["username"]=>
+        string(11) "prophetnite"
+        [2]=>
+        string(7) "prophet"
+        ["first_name"]=>
+        string(7) "prophet"
+        [3]=>
+        string(10) "mycoolpass"
+        ["password"]=>
+        string(10) "mycoolpass"
+        [4]=>
+        string(23) "prophet@prophetnite.com"
+        ["email"]=>
+        string(23) "prophet@prophetnite.com"
+        [5]=>
+        string(20) "lakjshdflkjashfjklsh"
+        ["user_guid"]=>
+        string(20) "lakjshdflkjashfjklsh"
+        [6]=>
+        NULL
+        ["user_email_authenticated"]=>
+        NULL
+        [7]=>
+        NULL
+        ["user_email_token"]=>
+        NULL
+        [8]=>
+        NULL
+        ["user_email_token_expires"]=>
+        NULL
+        [9]=>
+        NULL
+        ["user_registration"]=>
+        NULL
+        [10]=>
+        NULL
+        ["user_newpass"]=>
+        NULL
+        [11]=>
+        string(1) "0"
+        ["user_editcount"]=>
+        string(1) "0"
+        [12]=>
+        string(4) "nite"
+        ["last_name"]=>
+        string(4) "nite"
+        [13]=>
+        NULL
+        ["password_hash"]=>
+        NULL
+        [14]=>
+        NULL
+        ["salt"]=>
+        NULL
+      }
+    }
+  }
+  [1]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(31)
+    ["function"]=>
+    string(11) "find_by_sql"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &string(19) "SELECT * FROM users"
+    }
+  }
+  [2]=>
+  array(6) {
+    ["file"]=>
+    string(64) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php"
+    ["line"]=>
+    int(56)
+    ["function"]=>
+    string(8) "find_all"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(0) {
+    }
+  }
+}
+ :  
+2014-01-06 23:30:29 : array(3) {
+  [0]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(47)
+    ["function"]=>
+    string(11) "instantiate"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &array(30) {
+        [0]=>
+        string(1) "2"
+        ["id"]=>
+        string(1) "2"
+        [1]=>
+        string(9) "testuser2"
+        ["username"]=>
+        string(9) "testuser2"
+        [2]=>
+        string(3) "bob"
+        ["first_name"]=>
+        string(3) "bob"
+        [3]=>
+        string(9) "YUPHASHED"
+        ["password"]=>
+        string(9) "YUPHASHED"
+        [4]=>
+        string(17) "bob@localhost.com"
+        ["email"]=>
+        string(17) "bob@localhost.com"
+        [5]=>
+        string(22) "jkhiuywiruyweriuyweriu"
+        ["user_guid"]=>
+        string(22) "jkhiuywiruyweriuyweriu"
+        [6]=>
+        NULL
+        ["user_email_authenticated"]=>
+        NULL
+        [7]=>
+        NULL
+        ["user_email_token"]=>
+        NULL
+        [8]=>
+        NULL
+        ["user_email_token_expires"]=>
+        NULL
+        [9]=>
+        NULL
+        ["user_registration"]=>
+        NULL
+        [10]=>
+        NULL
+        ["user_newpass"]=>
+        NULL
+        [11]=>
+        string(1) "1"
+        ["user_editcount"]=>
+        string(1) "1"
+        [12]=>
+        string(7) "walkers"
+        ["last_name"]=>
+        string(7) "walkers"
+        [13]=>
+        NULL
+        ["password_hash"]=>
+        NULL
+        [14]=>
+        NULL
+        ["salt"]=>
+        NULL
+      }
+    }
+  }
+  [1]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(31)
+    ["function"]=>
+    string(11) "find_by_sql"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &string(19) "SELECT * FROM users"
+    }
+  }
+  [2]=>
+  array(6) {
+    ["file"]=>
+    string(64) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php"
+    ["line"]=>
+    int(56)
+    ["function"]=>
+    string(8) "find_all"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(0) {
+    }
+  }
+}
+ :  
+2014-01-06 23:30:29 : Trace Dump : array(1) {
+  [0]=>
+  array(4) {
+    ["file"]=>
+    string(64) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php"
+    ["line"]=>
+    int(68)
+    ["function"]=>
+    string(13) "tracedump_log"
+    ["args"]=>
+    array(0) {
+    }
+  }
+}
+ 
+2014-01-06 23:31:04 : Page Load : /Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php 
+2014-01-06 23:31:05 : array(3) {
+  [0]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(47)
+    ["function"]=>
+    string(11) "instantiate"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &array(30) {
+        [0]=>
+        string(1) "1"
+        ["id"]=>
+        string(1) "1"
+        [1]=>
+        string(11) "prophetnite"
+        ["username"]=>
+        string(11) "prophetnite"
+        [2]=>
+        string(7) "prophet"
+        ["first_name"]=>
+        string(7) "prophet"
+        [3]=>
+        string(10) "mycoolpass"
+        ["password"]=>
+        string(10) "mycoolpass"
+        [4]=>
+        string(23) "prophet@prophetnite.com"
+        ["email"]=>
+        string(23) "prophet@prophetnite.com"
+        [5]=>
+        string(20) "lakjshdflkjashfjklsh"
+        ["user_guid"]=>
+        string(20) "lakjshdflkjashfjklsh"
+        [6]=>
+        NULL
+        ["user_email_authenticated"]=>
+        NULL
+        [7]=>
+        NULL
+        ["user_email_token"]=>
+        NULL
+        [8]=>
+        NULL
+        ["user_email_token_expires"]=>
+        NULL
+        [9]=>
+        NULL
+        ["user_registration"]=>
+        NULL
+        [10]=>
+        NULL
+        ["user_newpass"]=>
+        NULL
+        [11]=>
+        string(1) "0"
+        ["user_editcount"]=>
+        string(1) "0"
+        [12]=>
+        string(4) "nite"
+        ["last_name"]=>
+        string(4) "nite"
+        [13]=>
+        NULL
+        ["password_hash"]=>
+        NULL
+        [14]=>
+        NULL
+        ["salt"]=>
+        NULL
+      }
+    }
+  }
+  [1]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(38)
+    ["function"]=>
+    string(11) "find_by_sql"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &string(38) "SELECT * FROM users WHERE id=1 LIMIT 1"
+    }
+  }
+  [2]=>
+  array(6) {
+    ["file"]=>
+    string(64) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php"
+    ["line"]=>
+    int(51)
+    ["function"]=>
+    string(10) "find_by_id"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &int(1)
+    }
+  }
+}
+ :  
+2014-01-06 23:31:05 : array(3) {
+  [0]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(47)
+    ["function"]=>
+    string(11) "instantiate"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &array(30) {
+        [0]=>
+        string(1) "1"
+        ["id"]=>
+        string(1) "1"
+        [1]=>
+        string(11) "prophetnite"
+        ["username"]=>
+        string(11) "prophetnite"
+        [2]=>
+        string(7) "prophet"
+        ["first_name"]=>
+        string(7) "prophet"
+        [3]=>
+        string(10) "mycoolpass"
+        ["password"]=>
+        string(10) "mycoolpass"
+        [4]=>
+        string(23) "prophet@prophetnite.com"
+        ["email"]=>
+        string(23) "prophet@prophetnite.com"
+        [5]=>
+        string(20) "lakjshdflkjashfjklsh"
+        ["user_guid"]=>
+        string(20) "lakjshdflkjashfjklsh"
+        [6]=>
+        NULL
+        ["user_email_authenticated"]=>
+        NULL
+        [7]=>
+        NULL
+        ["user_email_token"]=>
+        NULL
+        [8]=>
+        NULL
+        ["user_email_token_expires"]=>
+        NULL
+        [9]=>
+        NULL
+        ["user_registration"]=>
+        NULL
+        [10]=>
+        NULL
+        ["user_newpass"]=>
+        NULL
+        [11]=>
+        string(1) "0"
+        ["user_editcount"]=>
+        string(1) "0"
+        [12]=>
+        string(4) "nite"
+        ["last_name"]=>
+        string(4) "nite"
+        [13]=>
+        NULL
+        ["password_hash"]=>
+        NULL
+        [14]=>
+        NULL
+        ["salt"]=>
+        NULL
+      }
+    }
+  }
+  [1]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(31)
+    ["function"]=>
+    string(11) "find_by_sql"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &string(19) "SELECT * FROM users"
+    }
+  }
+  [2]=>
+  array(6) {
+    ["file"]=>
+    string(64) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php"
+    ["line"]=>
+    int(56)
+    ["function"]=>
+    string(8) "find_all"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(0) {
+    }
+  }
+}
+ :  
+2014-01-06 23:31:05 : array(3) {
+  [0]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(47)
+    ["function"]=>
+    string(11) "instantiate"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &array(30) {
+        [0]=>
+        string(1) "2"
+        ["id"]=>
+        string(1) "2"
+        [1]=>
+        string(9) "testuser2"
+        ["username"]=>
+        string(9) "testuser2"
+        [2]=>
+        string(3) "bob"
+        ["first_name"]=>
+        string(3) "bob"
+        [3]=>
+        string(9) "YUPHASHED"
+        ["password"]=>
+        string(9) "YUPHASHED"
+        [4]=>
+        string(17) "bob@localhost.com"
+        ["email"]=>
+        string(17) "bob@localhost.com"
+        [5]=>
+        string(22) "jkhiuywiruyweriuyweriu"
+        ["user_guid"]=>
+        string(22) "jkhiuywiruyweriuyweriu"
+        [6]=>
+        NULL
+        ["user_email_authenticated"]=>
+        NULL
+        [7]=>
+        NULL
+        ["user_email_token"]=>
+        NULL
+        [8]=>
+        NULL
+        ["user_email_token_expires"]=>
+        NULL
+        [9]=>
+        NULL
+        ["user_registration"]=>
+        NULL
+        [10]=>
+        NULL
+        ["user_newpass"]=>
+        NULL
+        [11]=>
+        string(1) "1"
+        ["user_editcount"]=>
+        string(1) "1"
+        [12]=>
+        string(7) "walkers"
+        ["last_name"]=>
+        string(7) "walkers"
+        [13]=>
+        NULL
+        ["password_hash"]=>
+        NULL
+        [14]=>
+        NULL
+        ["salt"]=>
+        NULL
+      }
+    }
+  }
+  [1]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(31)
+    ["function"]=>
+    string(11) "find_by_sql"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &string(19) "SELECT * FROM users"
+    }
+  }
+  [2]=>
+  array(6) {
+    ["file"]=>
+    string(64) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php"
+    ["line"]=>
+    int(56)
+    ["function"]=>
+    string(8) "find_all"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(0) {
+    }
+  }
+}
+ :  
+2014-01-06 23:31:05 : Trace Dump : array(1) {
+  [0]=>
+  array(4) {
+    ["file"]=>
+    string(64) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php"
+    ["line"]=>
+    int(68)
+    ["function"]=>
+    string(13) "tracedump_log"
+    ["args"]=>
+    array(0) {
+    }
+  }
+}
+ 
+2014-01-06 23:32:06 : Page Load : /Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php 
+2014-01-06 23:32:06 : array(3) {
+  [0]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(47)
+    ["function"]=>
+    string(11) "instantiate"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &array(30) {
+        [0]=>
+        string(1) "1"
+        ["id"]=>
+        string(1) "1"
+        [1]=>
+        string(11) "prophetnite"
+        ["username"]=>
+        string(11) "prophetnite"
+        [2]=>
+        string(7) "prophet"
+        ["first_name"]=>
+        string(7) "prophet"
+        [3]=>
+        string(10) "mycoolpass"
+        ["password"]=>
+        string(10) "mycoolpass"
+        [4]=>
+        string(23) "prophet@prophetnite.com"
+        ["email"]=>
+        string(23) "prophet@prophetnite.com"
+        [5]=>
+        string(20) "lakjshdflkjashfjklsh"
+        ["user_guid"]=>
+        string(20) "lakjshdflkjashfjklsh"
+        [6]=>
+        NULL
+        ["user_email_authenticated"]=>
+        NULL
+        [7]=>
+        NULL
+        ["user_email_token"]=>
+        NULL
+        [8]=>
+        NULL
+        ["user_email_token_expires"]=>
+        NULL
+        [9]=>
+        NULL
+        ["user_registration"]=>
+        NULL
+        [10]=>
+        NULL
+        ["user_newpass"]=>
+        NULL
+        [11]=>
+        string(1) "0"
+        ["user_editcount"]=>
+        string(1) "0"
+        [12]=>
+        string(4) "nite"
+        ["last_name"]=>
+        string(4) "nite"
+        [13]=>
+        string(33) "f8f88ab22132715185e3b10652c737a1
+"
+        ["password_hash"]=>
+        string(33) "f8f88ab22132715185e3b10652c737a1
+"
+        [14]=>
+        string(16) "saltmotherfucker"
+        ["salt"]=>
+        string(16) "saltmotherfucker"
+      }
+    }
+  }
+  [1]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(38)
+    ["function"]=>
+    string(11) "find_by_sql"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &string(38) "SELECT * FROM users WHERE id=1 LIMIT 1"
+    }
+  }
+  [2]=>
+  array(6) {
+    ["file"]=>
+    string(64) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php"
+    ["line"]=>
+    int(51)
+    ["function"]=>
+    string(10) "find_by_id"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &int(1)
+    }
+  }
+}
+ :  
+2014-01-06 23:32:06 : array(3) {
+  [0]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(47)
+    ["function"]=>
+    string(11) "instantiate"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &array(30) {
+        [0]=>
+        string(1) "1"
+        ["id"]=>
+        string(1) "1"
+        [1]=>
+        string(11) "prophetnite"
+        ["username"]=>
+        string(11) "prophetnite"
+        [2]=>
+        string(7) "prophet"
+        ["first_name"]=>
+        string(7) "prophet"
+        [3]=>
+        string(10) "mycoolpass"
+        ["password"]=>
+        string(10) "mycoolpass"
+        [4]=>
+        string(23) "prophet@prophetnite.com"
+        ["email"]=>
+        string(23) "prophet@prophetnite.com"
+        [5]=>
+        string(20) "lakjshdflkjashfjklsh"
+        ["user_guid"]=>
+        string(20) "lakjshdflkjashfjklsh"
+        [6]=>
+        NULL
+        ["user_email_authenticated"]=>
+        NULL
+        [7]=>
+        NULL
+        ["user_email_token"]=>
+        NULL
+        [8]=>
+        NULL
+        ["user_email_token_expires"]=>
+        NULL
+        [9]=>
+        NULL
+        ["user_registration"]=>
+        NULL
+        [10]=>
+        NULL
+        ["user_newpass"]=>
+        NULL
+        [11]=>
+        string(1) "0"
+        ["user_editcount"]=>
+        string(1) "0"
+        [12]=>
+        string(4) "nite"
+        ["last_name"]=>
+        string(4) "nite"
+        [13]=>
+        string(33) "f8f88ab22132715185e3b10652c737a1
+"
+        ["password_hash"]=>
+        string(33) "f8f88ab22132715185e3b10652c737a1
+"
+        [14]=>
+        string(16) "saltmotherfucker"
+        ["salt"]=>
+        string(16) "saltmotherfucker"
+      }
+    }
+  }
+  [1]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(31)
+    ["function"]=>
+    string(11) "find_by_sql"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &string(19) "SELECT * FROM users"
+    }
+  }
+  [2]=>
+  array(6) {
+    ["file"]=>
+    string(64) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php"
+    ["line"]=>
+    int(56)
+    ["function"]=>
+    string(8) "find_all"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(0) {
+    }
+  }
+}
+ :  
+2014-01-06 23:32:06 : array(3) {
+  [0]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(47)
+    ["function"]=>
+    string(11) "instantiate"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &array(30) {
+        [0]=>
+        string(1) "2"
+        ["id"]=>
+        string(1) "2"
+        [1]=>
+        string(9) "testuser2"
+        ["username"]=>
+        string(9) "testuser2"
+        [2]=>
+        string(3) "bob"
+        ["first_name"]=>
+        string(3) "bob"
+        [3]=>
+        string(9) "YUPHASHED"
+        ["password"]=>
+        string(9) "YUPHASHED"
+        [4]=>
+        string(17) "bob@localhost.com"
+        ["email"]=>
+        string(17) "bob@localhost.com"
+        [5]=>
+        string(22) "jkhiuywiruyweriuyweriu"
+        ["user_guid"]=>
+        string(22) "jkhiuywiruyweriuyweriu"
+        [6]=>
+        NULL
+        ["user_email_authenticated"]=>
+        NULL
+        [7]=>
+        NULL
+        ["user_email_token"]=>
+        NULL
+        [8]=>
+        NULL
+        ["user_email_token_expires"]=>
+        NULL
+        [9]=>
+        NULL
+        ["user_registration"]=>
+        NULL
+        [10]=>
+        NULL
+        ["user_newpass"]=>
+        NULL
+        [11]=>
+        string(1) "1"
+        ["user_editcount"]=>
+        string(1) "1"
+        [12]=>
+        string(7) "walkers"
+        ["last_name"]=>
+        string(7) "walkers"
+        [13]=>
+        string(32) "106e049b44fed526fffcf64fecaf3e3c"
+        ["password_hash"]=>
+        string(32) "106e049b44fed526fffcf64fecaf3e3c"
+        [14]=>
+        string(16) "saltmotherfucker"
+        ["salt"]=>
+        string(16) "saltmotherfucker"
+      }
+    }
+  }
+  [1]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(31)
+    ["function"]=>
+    string(11) "find_by_sql"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &string(19) "SELECT * FROM users"
+    }
+  }
+  [2]=>
+  array(6) {
+    ["file"]=>
+    string(64) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php"
+    ["line"]=>
+    int(56)
+    ["function"]=>
+    string(8) "find_all"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(0) {
+    }
+  }
+}
+ :  
+2014-01-06 23:32:06 : array(3) {
+  [0]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(47)
+    ["function"]=>
+    string(11) "instantiate"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &array(30) {
+        [0]=>
+        string(1) "3"
+        ["id"]=>
+        string(1) "3"
+        [1]=>
+        NULL
+        ["username"]=>
+        NULL
+        [2]=>
+        NULL
+        ["first_name"]=>
+        NULL
+        [3]=>
+        string(0) ""
+        ["password"]=>
+        string(0) ""
+        [4]=>
+        NULL
+        ["email"]=>
+        NULL
+        [5]=>
+        string(0) ""
+        ["user_guid"]=>
+        string(0) ""
+        [6]=>
+        NULL
+        ["user_email_authenticated"]=>
+        NULL
+        [7]=>
+        NULL
+        ["user_email_token"]=>
+        NULL
+        [8]=>
+        NULL
+        ["user_email_token_expires"]=>
+        NULL
+        [9]=>
+        NULL
+        ["user_registration"]=>
+        NULL
+        [10]=>
+        NULL
+        ["user_newpass"]=>
+        NULL
+        [11]=>
+        string(1) "0"
+        ["user_editcount"]=>
+        string(1) "0"
+        [12]=>
+        NULL
+        ["last_name"]=>
+        NULL
+        [13]=>
+        NULL
+        ["password_hash"]=>
+        NULL
+        [14]=>
+        string(16) "saltmotherfucker"
+        ["salt"]=>
+        string(16) "saltmotherfucker"
+      }
+    }
+  }
+  [1]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(31)
+    ["function"]=>
+    string(11) "find_by_sql"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &string(19) "SELECT * FROM users"
+    }
+  }
+  [2]=>
+  array(6) {
+    ["file"]=>
+    string(64) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php"
+    ["line"]=>
+    int(56)
+    ["function"]=>
+    string(8) "find_all"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(0) {
+    }
+  }
+}
+ :  
+2014-01-06 23:32:06 : Trace Dump : array(1) {
+  [0]=>
+  array(4) {
+    ["file"]=>
+    string(64) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php"
+    ["line"]=>
+    int(68)
+    ["function"]=>
+    string(13) "tracedump_log"
+    ["args"]=>
+    array(0) {
+    }
+  }
+}
+ 
+2014-01-06 23:33:36 : Page Load : /Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php 
+2014-01-06 23:33:36 : array(3) {
+  [0]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(47)
+    ["function"]=>
+    string(11) "instantiate"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &array(30) {
+        [0]=>
+        string(1) "1"
+        ["id"]=>
+        string(1) "1"
+        [1]=>
+        string(11) "prophetnite"
+        ["username"]=>
+        string(11) "prophetnite"
+        [2]=>
+        string(7) "prophet"
+        ["first_name"]=>
+        string(7) "prophet"
+        [3]=>
+        string(10) "mycoolpass"
+        ["password"]=>
+        string(10) "mycoolpass"
+        [4]=>
+        string(23) "prophet@prophetnite.com"
+        ["email"]=>
+        string(23) "prophet@prophetnite.com"
+        [5]=>
+        string(20) "lakjshdflkjashfjklsh"
+        ["user_guid"]=>
+        string(20) "lakjshdflkjashfjklsh"
+        [6]=>
+        NULL
+        ["user_email_authenticated"]=>
+        NULL
+        [7]=>
+        NULL
+        ["user_email_token"]=>
+        NULL
+        [8]=>
+        NULL
+        ["user_email_token_expires"]=>
+        NULL
+        [9]=>
+        NULL
+        ["user_registration"]=>
+        NULL
+        [10]=>
+        NULL
+        ["user_newpass"]=>
+        NULL
+        [11]=>
+        string(1) "0"
+        ["user_editcount"]=>
+        string(1) "0"
+        [12]=>
+        string(4) "nite"
+        ["last_name"]=>
+        string(4) "nite"
+        [13]=>
+        string(40) "73cf6cd3f1a1a951cdb89384972f8c46a3ce7a70"
+        ["password_hash"]=>
+        string(40) "73cf6cd3f1a1a951cdb89384972f8c46a3ce7a70"
+        [14]=>
+        string(16) "saltmotherfucker"
+        ["salt"]=>
+        string(16) "saltmotherfucker"
+      }
+    }
+  }
+  [1]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(38)
+    ["function"]=>
+    string(11) "find_by_sql"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &string(38) "SELECT * FROM users WHERE id=1 LIMIT 1"
+    }
+  }
+  [2]=>
+  array(6) {
+    ["file"]=>
+    string(64) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php"
+    ["line"]=>
+    int(51)
+    ["function"]=>
+    string(10) "find_by_id"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &int(1)
+    }
+  }
+}
+ :  
+2014-01-06 23:33:36 : array(3) {
+  [0]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(47)
+    ["function"]=>
+    string(11) "instantiate"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &array(30) {
+        [0]=>
+        string(1) "1"
+        ["id"]=>
+        string(1) "1"
+        [1]=>
+        string(11) "prophetnite"
+        ["username"]=>
+        string(11) "prophetnite"
+        [2]=>
+        string(7) "prophet"
+        ["first_name"]=>
+        string(7) "prophet"
+        [3]=>
+        string(10) "mycoolpass"
+        ["password"]=>
+        string(10) "mycoolpass"
+        [4]=>
+        string(23) "prophet@prophetnite.com"
+        ["email"]=>
+        string(23) "prophet@prophetnite.com"
+        [5]=>
+        string(20) "lakjshdflkjashfjklsh"
+        ["user_guid"]=>
+        string(20) "lakjshdflkjashfjklsh"
+        [6]=>
+        NULL
+        ["user_email_authenticated"]=>
+        NULL
+        [7]=>
+        NULL
+        ["user_email_token"]=>
+        NULL
+        [8]=>
+        NULL
+        ["user_email_token_expires"]=>
+        NULL
+        [9]=>
+        NULL
+        ["user_registration"]=>
+        NULL
+        [10]=>
+        NULL
+        ["user_newpass"]=>
+        NULL
+        [11]=>
+        string(1) "0"
+        ["user_editcount"]=>
+        string(1) "0"
+        [12]=>
+        string(4) "nite"
+        ["last_name"]=>
+        string(4) "nite"
+        [13]=>
+        string(40) "73cf6cd3f1a1a951cdb89384972f8c46a3ce7a70"
+        ["password_hash"]=>
+        string(40) "73cf6cd3f1a1a951cdb89384972f8c46a3ce7a70"
+        [14]=>
+        string(16) "saltmotherfucker"
+        ["salt"]=>
+        string(16) "saltmotherfucker"
+      }
+    }
+  }
+  [1]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(31)
+    ["function"]=>
+    string(11) "find_by_sql"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &string(19) "SELECT * FROM users"
+    }
+  }
+  [2]=>
+  array(6) {
+    ["file"]=>
+    string(64) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php"
+    ["line"]=>
+    int(56)
+    ["function"]=>
+    string(8) "find_all"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(0) {
+    }
+  }
+}
+ :  
+2014-01-06 23:33:36 : array(3) {
+  [0]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(47)
+    ["function"]=>
+    string(11) "instantiate"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &array(30) {
+        [0]=>
+        string(1) "2"
+        ["id"]=>
+        string(1) "2"
+        [1]=>
+        string(9) "testuser2"
+        ["username"]=>
+        string(9) "testuser2"
+        [2]=>
+        string(3) "bob"
+        ["first_name"]=>
+        string(3) "bob"
+        [3]=>
+        string(9) "YUPHASHED"
+        ["password"]=>
+        string(9) "YUPHASHED"
+        [4]=>
+        string(17) "bob@localhost.com"
+        ["email"]=>
+        string(17) "bob@localhost.com"
+        [5]=>
+        string(22) "jkhiuywiruyweriuyweriu"
+        ["user_guid"]=>
+        string(22) "jkhiuywiruyweriuyweriu"
+        [6]=>
+        NULL
+        ["user_email_authenticated"]=>
+        NULL
+        [7]=>
+        NULL
+        ["user_email_token"]=>
+        NULL
+        [8]=>
+        NULL
+        ["user_email_token_expires"]=>
+        NULL
+        [9]=>
+        NULL
+        ["user_registration"]=>
+        NULL
+        [10]=>
+        NULL
+        ["user_newpass"]=>
+        NULL
+        [11]=>
+        string(1) "1"
+        ["user_editcount"]=>
+        string(1) "1"
+        [12]=>
+        string(7) "walkers"
+        ["last_name"]=>
+        string(7) "walkers"
+        [13]=>
+        string(40) "36f1e900c36d725931a91daa020296869b153829"
+        ["password_hash"]=>
+        string(40) "36f1e900c36d725931a91daa020296869b153829"
+        [14]=>
+        string(16) "saltmotherfucker"
+        ["salt"]=>
+        string(16) "saltmotherfucker"
+      }
+    }
+  }
+  [1]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(31)
+    ["function"]=>
+    string(11) "find_by_sql"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &string(19) "SELECT * FROM users"
+    }
+  }
+  [2]=>
+  array(6) {
+    ["file"]=>
+    string(64) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php"
+    ["line"]=>
+    int(56)
+    ["function"]=>
+    string(8) "find_all"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(0) {
+    }
+  }
+}
+ :  
+2014-01-06 23:33:36 : array(3) {
+  [0]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(47)
+    ["function"]=>
+    string(11) "instantiate"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &array(30) {
+        [0]=>
+        string(1) "3"
+        ["id"]=>
+        string(1) "3"
+        [1]=>
+        NULL
+        ["username"]=>
+        NULL
+        [2]=>
+        NULL
+        ["first_name"]=>
+        NULL
+        [3]=>
+        string(0) ""
+        ["password"]=>
+        string(0) ""
+        [4]=>
+        NULL
+        ["email"]=>
+        NULL
+        [5]=>
+        string(0) ""
+        ["user_guid"]=>
+        string(0) ""
+        [6]=>
+        NULL
+        ["user_email_authenticated"]=>
+        NULL
+        [7]=>
+        NULL
+        ["user_email_token"]=>
+        NULL
+        [8]=>
+        NULL
+        ["user_email_token_expires"]=>
+        NULL
+        [9]=>
+        NULL
+        ["user_registration"]=>
+        NULL
+        [10]=>
+        NULL
+        ["user_newpass"]=>
+        NULL
+        [11]=>
+        string(1) "0"
+        ["user_editcount"]=>
+        string(1) "0"
+        [12]=>
+        NULL
+        ["last_name"]=>
+        NULL
+        [13]=>
+        NULL
+        ["password_hash"]=>
+        NULL
+        [14]=>
+        string(16) "saltmotherfucker"
+        ["salt"]=>
+        string(16) "saltmotherfucker"
+      }
+    }
+  }
+  [1]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(31)
+    ["function"]=>
+    string(11) "find_by_sql"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &string(19) "SELECT * FROM users"
+    }
+  }
+  [2]=>
+  array(6) {
+    ["file"]=>
+    string(64) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php"
+    ["line"]=>
+    int(56)
+    ["function"]=>
+    string(8) "find_all"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(0) {
+    }
+  }
+}
+ :  
+2014-01-06 23:33:36 : Trace Dump : array(1) {
+  [0]=>
+  array(4) {
+    ["file"]=>
+    string(64) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php"
+    ["line"]=>
+    int(69)
+    ["function"]=>
+    string(13) "tracedump_log"
+    ["args"]=>
+    array(0) {
+    }
+  }
+}
+ 
+2014-01-06 23:33:43 : Page Load : /Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php 
+2014-01-06 23:33:43 : array(3) {
+  [0]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(47)
+    ["function"]=>
+    string(11) "instantiate"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &array(30) {
+        [0]=>
+        string(1) "1"
+        ["id"]=>
+        string(1) "1"
+        [1]=>
+        string(11) "prophetnite"
+        ["username"]=>
+        string(11) "prophetnite"
+        [2]=>
+        string(7) "prophet"
+        ["first_name"]=>
+        string(7) "prophet"
+        [3]=>
+        string(10) "mycoolpass"
+        ["password"]=>
+        string(10) "mycoolpass"
+        [4]=>
+        string(23) "prophet@prophetnite.com"
+        ["email"]=>
+        string(23) "prophet@prophetnite.com"
+        [5]=>
+        string(20) "lakjshdflkjashfjklsh"
+        ["user_guid"]=>
+        string(20) "lakjshdflkjashfjklsh"
+        [6]=>
+        NULL
+        ["user_email_authenticated"]=>
+        NULL
+        [7]=>
+        NULL
+        ["user_email_token"]=>
+        NULL
+        [8]=>
+        NULL
+        ["user_email_token_expires"]=>
+        NULL
+        [9]=>
+        NULL
+        ["user_registration"]=>
+        NULL
+        [10]=>
+        NULL
+        ["user_newpass"]=>
+        NULL
+        [11]=>
+        string(1) "0"
+        ["user_editcount"]=>
+        string(1) "0"
+        [12]=>
+        string(4) "nite"
+        ["last_name"]=>
+        string(4) "nite"
+        [13]=>
+        string(40) "73cf6cd3f1a1a951cdb89384972f8c46a3ce7a70"
+        ["password_hash"]=>
+        string(40) "73cf6cd3f1a1a951cdb89384972f8c46a3ce7a70"
+        [14]=>
+        string(16) "saltmotherfucker"
+        ["salt"]=>
+        string(16) "saltmotherfucker"
+      }
+    }
+  }
+  [1]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(38)
+    ["function"]=>
+    string(11) "find_by_sql"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &string(38) "SELECT * FROM users WHERE id=1 LIMIT 1"
+    }
+  }
+  [2]=>
+  array(6) {
+    ["file"]=>
+    string(64) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php"
+    ["line"]=>
+    int(51)
+    ["function"]=>
+    string(10) "find_by_id"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &int(1)
+    }
+  }
+}
+ :  
+2014-01-06 23:33:43 : array(3) {
+  [0]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(47)
+    ["function"]=>
+    string(11) "instantiate"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &array(30) {
+        [0]=>
+        string(1) "1"
+        ["id"]=>
+        string(1) "1"
+        [1]=>
+        string(11) "prophetnite"
+        ["username"]=>
+        string(11) "prophetnite"
+        [2]=>
+        string(7) "prophet"
+        ["first_name"]=>
+        string(7) "prophet"
+        [3]=>
+        string(10) "mycoolpass"
+        ["password"]=>
+        string(10) "mycoolpass"
+        [4]=>
+        string(23) "prophet@prophetnite.com"
+        ["email"]=>
+        string(23) "prophet@prophetnite.com"
+        [5]=>
+        string(20) "lakjshdflkjashfjklsh"
+        ["user_guid"]=>
+        string(20) "lakjshdflkjashfjklsh"
+        [6]=>
+        NULL
+        ["user_email_authenticated"]=>
+        NULL
+        [7]=>
+        NULL
+        ["user_email_token"]=>
+        NULL
+        [8]=>
+        NULL
+        ["user_email_token_expires"]=>
+        NULL
+        [9]=>
+        NULL
+        ["user_registration"]=>
+        NULL
+        [10]=>
+        NULL
+        ["user_newpass"]=>
+        NULL
+        [11]=>
+        string(1) "0"
+        ["user_editcount"]=>
+        string(1) "0"
+        [12]=>
+        string(4) "nite"
+        ["last_name"]=>
+        string(4) "nite"
+        [13]=>
+        string(40) "73cf6cd3f1a1a951cdb89384972f8c46a3ce7a70"
+        ["password_hash"]=>
+        string(40) "73cf6cd3f1a1a951cdb89384972f8c46a3ce7a70"
+        [14]=>
+        string(16) "saltmotherfucker"
+        ["salt"]=>
+        string(16) "saltmotherfucker"
+      }
+    }
+  }
+  [1]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(31)
+    ["function"]=>
+    string(11) "find_by_sql"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &string(19) "SELECT * FROM users"
+    }
+  }
+  [2]=>
+  array(6) {
+    ["file"]=>
+    string(64) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php"
+    ["line"]=>
+    int(56)
+    ["function"]=>
+    string(8) "find_all"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(0) {
+    }
+  }
+}
+ :  
+2014-01-06 23:33:43 : array(3) {
+  [0]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(47)
+    ["function"]=>
+    string(11) "instantiate"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &array(30) {
+        [0]=>
+        string(1) "2"
+        ["id"]=>
+        string(1) "2"
+        [1]=>
+        string(9) "testuser2"
+        ["username"]=>
+        string(9) "testuser2"
+        [2]=>
+        string(3) "bob"
+        ["first_name"]=>
+        string(3) "bob"
+        [3]=>
+        string(9) "YUPHASHED"
+        ["password"]=>
+        string(9) "YUPHASHED"
+        [4]=>
+        string(17) "bob@localhost.com"
+        ["email"]=>
+        string(17) "bob@localhost.com"
+        [5]=>
+        string(22) "jkhiuywiruyweriuyweriu"
+        ["user_guid"]=>
+        string(22) "jkhiuywiruyweriuyweriu"
+        [6]=>
+        NULL
+        ["user_email_authenticated"]=>
+        NULL
+        [7]=>
+        NULL
+        ["user_email_token"]=>
+        NULL
+        [8]=>
+        NULL
+        ["user_email_token_expires"]=>
+        NULL
+        [9]=>
+        NULL
+        ["user_registration"]=>
+        NULL
+        [10]=>
+        NULL
+        ["user_newpass"]=>
+        NULL
+        [11]=>
+        string(1) "1"
+        ["user_editcount"]=>
+        string(1) "1"
+        [12]=>
+        string(7) "walkers"
+        ["last_name"]=>
+        string(7) "walkers"
+        [13]=>
+        string(40) "36f1e900c36d725931a91daa020296869b153829"
+        ["password_hash"]=>
+        string(40) "36f1e900c36d725931a91daa020296869b153829"
+        [14]=>
+        string(16) "saltmotherfucker"
+        ["salt"]=>
+        string(16) "saltmotherfucker"
+      }
+    }
+  }
+  [1]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(31)
+    ["function"]=>
+    string(11) "find_by_sql"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &string(19) "SELECT * FROM users"
+    }
+  }
+  [2]=>
+  array(6) {
+    ["file"]=>
+    string(64) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php"
+    ["line"]=>
+    int(56)
+    ["function"]=>
+    string(8) "find_all"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(0) {
+    }
+  }
+}
+ :  
+2014-01-06 23:33:43 : array(3) {
+  [0]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(47)
+    ["function"]=>
+    string(11) "instantiate"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &array(30) {
+        [0]=>
+        string(1) "3"
+        ["id"]=>
+        string(1) "3"
+        [1]=>
+        NULL
+        ["username"]=>
+        NULL
+        [2]=>
+        NULL
+        ["first_name"]=>
+        NULL
+        [3]=>
+        string(0) ""
+        ["password"]=>
+        string(0) ""
+        [4]=>
+        NULL
+        ["email"]=>
+        NULL
+        [5]=>
+        string(0) ""
+        ["user_guid"]=>
+        string(0) ""
+        [6]=>
+        NULL
+        ["user_email_authenticated"]=>
+        NULL
+        [7]=>
+        NULL
+        ["user_email_token"]=>
+        NULL
+        [8]=>
+        NULL
+        ["user_email_token_expires"]=>
+        NULL
+        [9]=>
+        NULL
+        ["user_registration"]=>
+        NULL
+        [10]=>
+        NULL
+        ["user_newpass"]=>
+        NULL
+        [11]=>
+        string(1) "0"
+        ["user_editcount"]=>
+        string(1) "0"
+        [12]=>
+        NULL
+        ["last_name"]=>
+        NULL
+        [13]=>
+        NULL
+        ["password_hash"]=>
+        NULL
+        [14]=>
+        string(16) "saltmotherfucker"
+        ["salt"]=>
+        string(16) "saltmotherfucker"
+      }
+    }
+  }
+  [1]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(31)
+    ["function"]=>
+    string(11) "find_by_sql"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &string(19) "SELECT * FROM users"
+    }
+  }
+  [2]=>
+  array(6) {
+    ["file"]=>
+    string(64) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php"
+    ["line"]=>
+    int(56)
+    ["function"]=>
+    string(8) "find_all"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(0) {
+    }
+  }
+}
+ :  
+2014-01-06 23:33:43 : Trace Dump : array(1) {
+  [0]=>
+  array(4) {
+    ["file"]=>
+    string(64) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php"
+    ["line"]=>
+    int(69)
+    ["function"]=>
+    string(13) "tracedump_log"
+    ["args"]=>
+    array(0) {
+    }
+  }
+}
+ 
+2014-01-06 23:37:07 : Page Load : /Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php 
+2014-01-06 23:37:07 : array(3) {
+  [0]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(47)
+    ["function"]=>
+    string(11) "instantiate"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &array(30) {
+        [0]=>
+        string(1) "1"
+        ["id"]=>
+        string(1) "1"
+        [1]=>
+        string(11) "prophetnite"
+        ["username"]=>
+        string(11) "prophetnite"
+        [2]=>
+        string(7) "prophet"
+        ["first_name"]=>
+        string(7) "prophet"
+        [3]=>
+        string(10) "mycoolpass"
+        ["password"]=>
+        string(10) "mycoolpass"
+        [4]=>
+        string(23) "prophet@prophetnite.com"
+        ["email"]=>
+        string(23) "prophet@prophetnite.com"
+        [5]=>
+        string(20) "lakjshdflkjashfjklsh"
+        ["user_guid"]=>
+        string(20) "lakjshdflkjashfjklsh"
+        [6]=>
+        NULL
+        ["user_email_authenticated"]=>
+        NULL
+        [7]=>
+        NULL
+        ["user_email_token"]=>
+        NULL
+        [8]=>
+        NULL
+        ["user_email_token_expires"]=>
+        NULL
+        [9]=>
+        NULL
+        ["user_registration"]=>
+        NULL
+        [10]=>
+        NULL
+        ["user_newpass"]=>
+        NULL
+        [11]=>
+        string(1) "0"
+        ["user_editcount"]=>
+        string(1) "0"
+        [12]=>
+        string(4) "nite"
+        ["last_name"]=>
+        string(4) "nite"
+        [13]=>
+        string(40) "73cf6cd3f1a1a951cdb89384972f8c46a3ce7a70"
+        ["password_hash"]=>
+        string(40) "73cf6cd3f1a1a951cdb89384972f8c46a3ce7a70"
+        [14]=>
+        string(16) "saltmotherfucker"
+        ["salt"]=>
+        string(16) "saltmotherfucker"
+      }
+    }
+  }
+  [1]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(38)
+    ["function"]=>
+    string(11) "find_by_sql"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &string(38) "SELECT * FROM users WHERE id=1 LIMIT 1"
+    }
+  }
+  [2]=>
+  array(6) {
+    ["file"]=>
+    string(64) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php"
+    ["line"]=>
+    int(51)
+    ["function"]=>
+    string(10) "find_by_id"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &int(1)
+    }
+  }
+}
+ :  
+2014-01-06 23:37:07 : array(3) {
+  [0]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(47)
+    ["function"]=>
+    string(11) "instantiate"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &array(30) {
+        [0]=>
+        string(1) "1"
+        ["id"]=>
+        string(1) "1"
+        [1]=>
+        string(11) "prophetnite"
+        ["username"]=>
+        string(11) "prophetnite"
+        [2]=>
+        string(7) "prophet"
+        ["first_name"]=>
+        string(7) "prophet"
+        [3]=>
+        string(10) "mycoolpass"
+        ["password"]=>
+        string(10) "mycoolpass"
+        [4]=>
+        string(23) "prophet@prophetnite.com"
+        ["email"]=>
+        string(23) "prophet@prophetnite.com"
+        [5]=>
+        string(20) "lakjshdflkjashfjklsh"
+        ["user_guid"]=>
+        string(20) "lakjshdflkjashfjklsh"
+        [6]=>
+        NULL
+        ["user_email_authenticated"]=>
+        NULL
+        [7]=>
+        NULL
+        ["user_email_token"]=>
+        NULL
+        [8]=>
+        NULL
+        ["user_email_token_expires"]=>
+        NULL
+        [9]=>
+        NULL
+        ["user_registration"]=>
+        NULL
+        [10]=>
+        NULL
+        ["user_newpass"]=>
+        NULL
+        [11]=>
+        string(1) "0"
+        ["user_editcount"]=>
+        string(1) "0"
+        [12]=>
+        string(4) "nite"
+        ["last_name"]=>
+        string(4) "nite"
+        [13]=>
+        string(40) "73cf6cd3f1a1a951cdb89384972f8c46a3ce7a70"
+        ["password_hash"]=>
+        string(40) "73cf6cd3f1a1a951cdb89384972f8c46a3ce7a70"
+        [14]=>
+        string(16) "saltmotherfucker"
+        ["salt"]=>
+        string(16) "saltmotherfucker"
+      }
+    }
+  }
+  [1]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(31)
+    ["function"]=>
+    string(11) "find_by_sql"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &string(19) "SELECT * FROM users"
+    }
+  }
+  [2]=>
+  array(6) {
+    ["file"]=>
+    string(64) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php"
+    ["line"]=>
+    int(56)
+    ["function"]=>
+    string(8) "find_all"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(0) {
+    }
+  }
+}
+ :  
+2014-01-06 23:37:07 : array(3) {
+  [0]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(47)
+    ["function"]=>
+    string(11) "instantiate"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &array(30) {
+        [0]=>
+        string(1) "2"
+        ["id"]=>
+        string(1) "2"
+        [1]=>
+        string(9) "testuser2"
+        ["username"]=>
+        string(9) "testuser2"
+        [2]=>
+        string(3) "bob"
+        ["first_name"]=>
+        string(3) "bob"
+        [3]=>
+        string(9) "YUPHASHED"
+        ["password"]=>
+        string(9) "YUPHASHED"
+        [4]=>
+        string(17) "bob@localhost.com"
+        ["email"]=>
+        string(17) "bob@localhost.com"
+        [5]=>
+        string(22) "jkhiuywiruyweriuyweriu"
+        ["user_guid"]=>
+        string(22) "jkhiuywiruyweriuyweriu"
+        [6]=>
+        NULL
+        ["user_email_authenticated"]=>
+        NULL
+        [7]=>
+        NULL
+        ["user_email_token"]=>
+        NULL
+        [8]=>
+        NULL
+        ["user_email_token_expires"]=>
+        NULL
+        [9]=>
+        NULL
+        ["user_registration"]=>
+        NULL
+        [10]=>
+        NULL
+        ["user_newpass"]=>
+        NULL
+        [11]=>
+        string(1) "1"
+        ["user_editcount"]=>
+        string(1) "1"
+        [12]=>
+        string(7) "walkers"
+        ["last_name"]=>
+        string(7) "walkers"
+        [13]=>
+        string(40) "36f1e900c36d725931a91daa020296869b153829"
+        ["password_hash"]=>
+        string(40) "36f1e900c36d725931a91daa020296869b153829"
+        [14]=>
+        string(16) "saltmotherfucker"
+        ["salt"]=>
+        string(16) "saltmotherfucker"
+      }
+    }
+  }
+  [1]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(31)
+    ["function"]=>
+    string(11) "find_by_sql"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &string(19) "SELECT * FROM users"
+    }
+  }
+  [2]=>
+  array(6) {
+    ["file"]=>
+    string(64) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php"
+    ["line"]=>
+    int(56)
+    ["function"]=>
+    string(8) "find_all"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(0) {
+    }
+  }
+}
+ :  
+2014-01-06 23:37:07 : array(3) {
+  [0]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(47)
+    ["function"]=>
+    string(11) "instantiate"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &array(30) {
+        [0]=>
+        string(1) "3"
+        ["id"]=>
+        string(1) "3"
+        [1]=>
+        NULL
+        ["username"]=>
+        NULL
+        [2]=>
+        NULL
+        ["first_name"]=>
+        NULL
+        [3]=>
+        string(0) ""
+        ["password"]=>
+        string(0) ""
+        [4]=>
+        NULL
+        ["email"]=>
+        NULL
+        [5]=>
+        string(0) ""
+        ["user_guid"]=>
+        string(0) ""
+        [6]=>
+        NULL
+        ["user_email_authenticated"]=>
+        NULL
+        [7]=>
+        NULL
+        ["user_email_token"]=>
+        NULL
+        [8]=>
+        NULL
+        ["user_email_token_expires"]=>
+        NULL
+        [9]=>
+        NULL
+        ["user_registration"]=>
+        NULL
+        [10]=>
+        NULL
+        ["user_newpass"]=>
+        NULL
+        [11]=>
+        string(1) "0"
+        ["user_editcount"]=>
+        string(1) "0"
+        [12]=>
+        NULL
+        ["last_name"]=>
+        NULL
+        [13]=>
+        NULL
+        ["password_hash"]=>
+        NULL
+        [14]=>
+        string(16) "saltmotherfucker"
+        ["salt"]=>
+        string(16) "saltmotherfucker"
+      }
+    }
+  }
+  [1]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(31)
+    ["function"]=>
+    string(11) "find_by_sql"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &string(19) "SELECT * FROM users"
+    }
+  }
+  [2]=>
+  array(6) {
+    ["file"]=>
+    string(64) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php"
+    ["line"]=>
+    int(56)
+    ["function"]=>
+    string(8) "find_all"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(0) {
+    }
+  }
+}
+ :  
+2014-01-06 23:37:07 : Trace Dump : array(1) {
+  [0]=>
+  array(4) {
+    ["file"]=>
+    string(64) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php"
+    ["line"]=>
+    int(69)
+    ["function"]=>
+    string(13) "tracedump_log"
+    ["args"]=>
+    array(0) {
+    }
+  }
+}
+ 
+2014-01-06 23:37:17 : array(0) {
+}
+ :  
+2014-01-06 23:37:22 : array(0) {
+}
+ :  
+2014-01-06 23:37:27 : array(0) {
+}
+ :  
+2014-01-06 23:37:34 : array(0) {
+}
+ :  
+2014-01-06 23:39:55 : array(0) {
+}
+ :  
+2014-01-06 23:40:01 : array(0) {
+}
+ :  
+2014-01-06 23:40:05 : array(3) {
+  [0]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(47)
+    ["function"]=>
+    string(11) "instantiate"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &array(30) {
+        [0]=>
+        string(1) "1"
+        ["id"]=>
+        string(1) "1"
+        [1]=>
+        string(11) "prophetnite"
+        ["username"]=>
+        string(11) "prophetnite"
+        [2]=>
+        string(7) "prophet"
+        ["first_name"]=>
+        string(7) "prophet"
+        [3]=>
+        string(10) "mycoolpass"
+        ["password"]=>
+        string(10) "mycoolpass"
+        [4]=>
+        string(23) "prophet@prophetnite.com"
+        ["email"]=>
+        string(23) "prophet@prophetnite.com"
+        [5]=>
+        string(20) "lakjshdflkjashfjklsh"
+        ["user_guid"]=>
+        string(20) "lakjshdflkjashfjklsh"
+        [6]=>
+        NULL
+        ["user_email_authenticated"]=>
+        NULL
+        [7]=>
+        NULL
+        ["user_email_token"]=>
+        NULL
+        [8]=>
+        NULL
+        ["user_email_token_expires"]=>
+        NULL
+        [9]=>
+        NULL
+        ["user_registration"]=>
+        NULL
+        [10]=>
+        NULL
+        ["user_newpass"]=>
+        NULL
+        [11]=>
+        string(1) "0"
+        ["user_editcount"]=>
+        string(1) "0"
+        [12]=>
+        string(4) "nite"
+        ["last_name"]=>
+        string(4) "nite"
+        [13]=>
+        string(40) "73cf6cd3f1a1a951cdb89384972f8c46a3ce7a70"
+        ["password_hash"]=>
+        string(40) "73cf6cd3f1a1a951cdb89384972f8c46a3ce7a70"
+        [14]=>
+        string(16) "saltmotherfucker"
+        ["salt"]=>
+        string(16) "saltmotherfucker"
+      }
+    }
+  }
+  [1]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(61)
+    ["function"]=>
+    string(11) "find_by_sql"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &string(121) "SELECT * FROM users WHERE username = 'prophetnite' AND password_hash = '73cf6cd3f1a1a951cdb89384972f8c46a3ce7a70' LIMIT 1"
+    }
+  }
+  [2]=>
+  array(6) {
+    ["file"]=>
+    string(70) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/admin/login.php"
+    ["line"]=>
+    int(19)
+    ["function"]=>
+    string(12) "authenticate"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(2) {
+      [0]=>
+      &string(11) "prophetnite"
+      [1]=>
+      &string(10) "mycoolpass"
+    }
+  }
+}
+ :  
+2014-01-06 23:42:29 : array(0) {
+}
+ :  
+2014-01-06 23:42:38 : array(3) {
+  [0]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(47)
+    ["function"]=>
+    string(11) "instantiate"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &array(30) {
+        [0]=>
+        string(1) "1"
+        ["id"]=>
+        string(1) "1"
+        [1]=>
+        string(11) "prophetnite"
+        ["username"]=>
+        string(11) "prophetnite"
+        [2]=>
+        string(7) "prophet"
+        ["first_name"]=>
+        string(7) "prophet"
+        [3]=>
+        string(10) "mycoolpass"
+        ["password"]=>
+        string(10) "mycoolpass"
+        [4]=>
+        string(23) "prophet@prophetnite.com"
+        ["email"]=>
+        string(23) "prophet@prophetnite.com"
+        [5]=>
+        string(20) "lakjshdflkjashfjklsh"
+        ["user_guid"]=>
+        string(20) "lakjshdflkjashfjklsh"
+        [6]=>
+        NULL
+        ["user_email_authenticated"]=>
+        NULL
+        [7]=>
+        NULL
+        ["user_email_token"]=>
+        NULL
+        [8]=>
+        NULL
+        ["user_email_token_expires"]=>
+        NULL
+        [9]=>
+        NULL
+        ["user_registration"]=>
+        NULL
+        [10]=>
+        NULL
+        ["user_newpass"]=>
+        NULL
+        [11]=>
+        string(1) "0"
+        ["user_editcount"]=>
+        string(1) "0"
+        [12]=>
+        string(4) "nite"
+        ["last_name"]=>
+        string(4) "nite"
+        [13]=>
+        string(40) "73cf6cd3f1a1a951cdb89384972f8c46a3ce7a70"
+        ["password_hash"]=>
+        string(40) "73cf6cd3f1a1a951cdb89384972f8c46a3ce7a70"
+        [14]=>
+        string(16) "saltmotherfucker"
+        ["salt"]=>
+        string(16) "saltmotherfucker"
+      }
+    }
+  }
+  [1]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(64)
+    ["function"]=>
+    string(11) "find_by_sql"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &string(121) "SELECT * FROM users WHERE username = 'prophetnite' AND password_hash = '73cf6cd3f1a1a951cdb89384972f8c46a3ce7a70' LIMIT 1"
+    }
+  }
+  [2]=>
+  array(6) {
+    ["file"]=>
+    string(70) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/admin/login.php"
+    ["line"]=>
+    int(19)
+    ["function"]=>
+    string(12) "authenticate"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(2) {
+      [0]=>
+      &string(11) "prophetnite"
+      [1]=>
+      &string(10) "mycoolpass"
+    }
+  }
+}
+ :  
+2014-01-06 23:44:13 : Page Load : /Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php 
+2014-01-06 23:44:13 : array(3) {
+  [0]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(47)
+    ["function"]=>
+    string(11) "instantiate"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &array(30) {
+        [0]=>
+        string(1) "1"
+        ["id"]=>
+        string(1) "1"
+        [1]=>
+        string(11) "prophetnite"
+        ["username"]=>
+        string(11) "prophetnite"
+        [2]=>
+        string(7) "prophet"
+        ["first_name"]=>
+        string(7) "prophet"
+        [3]=>
+        string(10) "mycoolpass"
+        ["password"]=>
+        string(10) "mycoolpass"
+        [4]=>
+        string(23) "prophet@prophetnite.com"
+        ["email"]=>
+        string(23) "prophet@prophetnite.com"
+        [5]=>
+        string(20) "lakjshdflkjashfjklsh"
+        ["user_guid"]=>
+        string(20) "lakjshdflkjashfjklsh"
+        [6]=>
+        NULL
+        ["user_email_authenticated"]=>
+        NULL
+        [7]=>
+        NULL
+        ["user_email_token"]=>
+        NULL
+        [8]=>
+        NULL
+        ["user_email_token_expires"]=>
+        NULL
+        [9]=>
+        NULL
+        ["user_registration"]=>
+        NULL
+        [10]=>
+        NULL
+        ["user_newpass"]=>
+        NULL
+        [11]=>
+        string(1) "0"
+        ["user_editcount"]=>
+        string(1) "0"
+        [12]=>
+        string(4) "nite"
+        ["last_name"]=>
+        string(4) "nite"
+        [13]=>
+        string(40) "73cf6cd3f1a1a951cdb89384972f8c46a3ce7a70"
+        ["password_hash"]=>
+        string(40) "73cf6cd3f1a1a951cdb89384972f8c46a3ce7a70"
+        [14]=>
+        string(16) "saltmotherfucker"
+        ["salt"]=>
+        string(16) "saltmotherfucker"
+      }
+    }
+  }
+  [1]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(38)
+    ["function"]=>
+    string(11) "find_by_sql"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &string(38) "SELECT * FROM users WHERE id=1 LIMIT 1"
+    }
+  }
+  [2]=>
+  array(6) {
+    ["file"]=>
+    string(64) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php"
+    ["line"]=>
+    int(51)
+    ["function"]=>
+    string(10) "find_by_id"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &int(1)
+    }
+  }
+}
+ :  
+2014-01-06 23:44:13 : array(3) {
+  [0]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(47)
+    ["function"]=>
+    string(11) "instantiate"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &array(30) {
+        [0]=>
+        string(1) "1"
+        ["id"]=>
+        string(1) "1"
+        [1]=>
+        string(11) "prophetnite"
+        ["username"]=>
+        string(11) "prophetnite"
+        [2]=>
+        string(7) "prophet"
+        ["first_name"]=>
+        string(7) "prophet"
+        [3]=>
+        string(10) "mycoolpass"
+        ["password"]=>
+        string(10) "mycoolpass"
+        [4]=>
+        string(23) "prophet@prophetnite.com"
+        ["email"]=>
+        string(23) "prophet@prophetnite.com"
+        [5]=>
+        string(20) "lakjshdflkjashfjklsh"
+        ["user_guid"]=>
+        string(20) "lakjshdflkjashfjklsh"
+        [6]=>
+        NULL
+        ["user_email_authenticated"]=>
+        NULL
+        [7]=>
+        NULL
+        ["user_email_token"]=>
+        NULL
+        [8]=>
+        NULL
+        ["user_email_token_expires"]=>
+        NULL
+        [9]=>
+        NULL
+        ["user_registration"]=>
+        NULL
+        [10]=>
+        NULL
+        ["user_newpass"]=>
+        NULL
+        [11]=>
+        string(1) "0"
+        ["user_editcount"]=>
+        string(1) "0"
+        [12]=>
+        string(4) "nite"
+        ["last_name"]=>
+        string(4) "nite"
+        [13]=>
+        string(40) "73cf6cd3f1a1a951cdb89384972f8c46a3ce7a70"
+        ["password_hash"]=>
+        string(40) "73cf6cd3f1a1a951cdb89384972f8c46a3ce7a70"
+        [14]=>
+        string(16) "saltmotherfucker"
+        ["salt"]=>
+        string(16) "saltmotherfucker"
+      }
+    }
+  }
+  [1]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(31)
+    ["function"]=>
+    string(11) "find_by_sql"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &string(19) "SELECT * FROM users"
+    }
+  }
+  [2]=>
+  array(6) {
+    ["file"]=>
+    string(64) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php"
+    ["line"]=>
+    int(56)
+    ["function"]=>
+    string(8) "find_all"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(0) {
+    }
+  }
+}
+ :  
+2014-01-06 23:44:13 : array(3) {
+  [0]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(47)
+    ["function"]=>
+    string(11) "instantiate"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &array(30) {
+        [0]=>
+        string(1) "2"
+        ["id"]=>
+        string(1) "2"
+        [1]=>
+        string(9) "testuser2"
+        ["username"]=>
+        string(9) "testuser2"
+        [2]=>
+        string(3) "bob"
+        ["first_name"]=>
+        string(3) "bob"
+        [3]=>
+        string(9) "YUPHASHED"
+        ["password"]=>
+        string(9) "YUPHASHED"
+        [4]=>
+        string(17) "bob@localhost.com"
+        ["email"]=>
+        string(17) "bob@localhost.com"
+        [5]=>
+        string(22) "jkhiuywiruyweriuyweriu"
+        ["user_guid"]=>
+        string(22) "jkhiuywiruyweriuyweriu"
+        [6]=>
+        NULL
+        ["user_email_authenticated"]=>
+        NULL
+        [7]=>
+        NULL
+        ["user_email_token"]=>
+        NULL
+        [8]=>
+        NULL
+        ["user_email_token_expires"]=>
+        NULL
+        [9]=>
+        NULL
+        ["user_registration"]=>
+        NULL
+        [10]=>
+        NULL
+        ["user_newpass"]=>
+        NULL
+        [11]=>
+        string(1) "1"
+        ["user_editcount"]=>
+        string(1) "1"
+        [12]=>
+        string(7) "walkers"
+        ["last_name"]=>
+        string(7) "walkers"
+        [13]=>
+        string(40) "36f1e900c36d725931a91daa020296869b153829"
+        ["password_hash"]=>
+        string(40) "36f1e900c36d725931a91daa020296869b153829"
+        [14]=>
+        string(16) "saltmotherfucker"
+        ["salt"]=>
+        string(16) "saltmotherfucker"
+      }
+    }
+  }
+  [1]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(31)
+    ["function"]=>
+    string(11) "find_by_sql"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &string(19) "SELECT * FROM users"
+    }
+  }
+  [2]=>
+  array(6) {
+    ["file"]=>
+    string(64) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php"
+    ["line"]=>
+    int(56)
+    ["function"]=>
+    string(8) "find_all"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(0) {
+    }
+  }
+}
+ :  
+2014-01-06 23:44:13 : array(3) {
+  [0]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(47)
+    ["function"]=>
+    string(11) "instantiate"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &array(30) {
+        [0]=>
+        string(1) "3"
+        ["id"]=>
+        string(1) "3"
+        [1]=>
+        NULL
+        ["username"]=>
+        NULL
+        [2]=>
+        NULL
+        ["first_name"]=>
+        NULL
+        [3]=>
+        string(0) ""
+        ["password"]=>
+        string(0) ""
+        [4]=>
+        NULL
+        ["email"]=>
+        NULL
+        [5]=>
+        string(0) ""
+        ["user_guid"]=>
+        string(0) ""
+        [6]=>
+        NULL
+        ["user_email_authenticated"]=>
+        NULL
+        [7]=>
+        NULL
+        ["user_email_token"]=>
+        NULL
+        [8]=>
+        NULL
+        ["user_email_token_expires"]=>
+        NULL
+        [9]=>
+        NULL
+        ["user_registration"]=>
+        NULL
+        [10]=>
+        NULL
+        ["user_newpass"]=>
+        NULL
+        [11]=>
+        string(1) "0"
+        ["user_editcount"]=>
+        string(1) "0"
+        [12]=>
+        NULL
+        ["last_name"]=>
+        NULL
+        [13]=>
+        NULL
+        ["password_hash"]=>
+        NULL
+        [14]=>
+        string(16) "saltmotherfucker"
+        ["salt"]=>
+        string(16) "saltmotherfucker"
+      }
+    }
+  }
+  [1]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(31)
+    ["function"]=>
+    string(11) "find_by_sql"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &string(19) "SELECT * FROM users"
+    }
+  }
+  [2]=>
+  array(6) {
+    ["file"]=>
+    string(64) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php"
+    ["line"]=>
+    int(56)
+    ["function"]=>
+    string(8) "find_all"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(0) {
+    }
+  }
+}
+ :  
+2014-01-06 23:44:13 : Trace Dump : array(1) {
+  [0]=>
+  array(4) {
+    ["file"]=>
+    string(64) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php"
+    ["line"]=>
+    int(69)
+    ["function"]=>
+    string(13) "tracedump_log"
+    ["args"]=>
+    array(0) {
+    }
+  }
+}
+ 
+2014-01-06 23:48:37 : Page Load : /Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php 
+2014-01-06 23:48:38 : array(3) {
+  [0]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(47)
+    ["function"]=>
+    string(11) "instantiate"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &array(30) {
+        [0]=>
+        string(1) "1"
+        ["id"]=>
+        string(1) "1"
+        [1]=>
+        string(11) "prophetnite"
+        ["username"]=>
+        string(11) "prophetnite"
+        [2]=>
+        string(7) "prophet"
+        ["first_name"]=>
+        string(7) "prophet"
+        [3]=>
+        string(10) "mycoolpass"
+        ["password"]=>
+        string(10) "mycoolpass"
+        [4]=>
+        string(23) "prophet@prophetnite.com"
+        ["email"]=>
+        string(23) "prophet@prophetnite.com"
+        [5]=>
+        string(20) "lakjshdflkjashfjklsh"
+        ["user_guid"]=>
+        string(20) "lakjshdflkjashfjklsh"
+        [6]=>
+        NULL
+        ["user_email_authenticated"]=>
+        NULL
+        [7]=>
+        NULL
+        ["user_email_token"]=>
+        NULL
+        [8]=>
+        NULL
+        ["user_email_token_expires"]=>
+        NULL
+        [9]=>
+        NULL
+        ["user_registration"]=>
+        NULL
+        [10]=>
+        NULL
+        ["user_newpass"]=>
+        NULL
+        [11]=>
+        string(1) "0"
+        ["user_editcount"]=>
+        string(1) "0"
+        [12]=>
+        string(4) "nite"
+        ["last_name"]=>
+        string(4) "nite"
+        [13]=>
+        string(40) "73cf6cd3f1a1a951cdb89384972f8c46a3ce7a70"
+        ["password_hash"]=>
+        string(40) "73cf6cd3f1a1a951cdb89384972f8c46a3ce7a70"
+        [14]=>
+        string(16) "saltmotherfucker"
+        ["salt"]=>
+        string(16) "saltmotherfucker"
+      }
+    }
+  }
+  [1]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(38)
+    ["function"]=>
+    string(11) "find_by_sql"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &string(38) "SELECT * FROM users WHERE id=1 LIMIT 1"
+    }
+  }
+  [2]=>
+  array(6) {
+    ["file"]=>
+    string(64) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php"
+    ["line"]=>
+    int(51)
+    ["function"]=>
+    string(10) "find_by_id"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &int(1)
+    }
+  }
+}
+ :  
+2014-01-06 23:48:38 : array(3) {
+  [0]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(47)
+    ["function"]=>
+    string(11) "instantiate"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &array(30) {
+        [0]=>
+        string(1) "1"
+        ["id"]=>
+        string(1) "1"
+        [1]=>
+        string(11) "prophetnite"
+        ["username"]=>
+        string(11) "prophetnite"
+        [2]=>
+        string(7) "prophet"
+        ["first_name"]=>
+        string(7) "prophet"
+        [3]=>
+        string(10) "mycoolpass"
+        ["password"]=>
+        string(10) "mycoolpass"
+        [4]=>
+        string(23) "prophet@prophetnite.com"
+        ["email"]=>
+        string(23) "prophet@prophetnite.com"
+        [5]=>
+        string(20) "lakjshdflkjashfjklsh"
+        ["user_guid"]=>
+        string(20) "lakjshdflkjashfjklsh"
+        [6]=>
+        NULL
+        ["user_email_authenticated"]=>
+        NULL
+        [7]=>
+        NULL
+        ["user_email_token"]=>
+        NULL
+        [8]=>
+        NULL
+        ["user_email_token_expires"]=>
+        NULL
+        [9]=>
+        NULL
+        ["user_registration"]=>
+        NULL
+        [10]=>
+        NULL
+        ["user_newpass"]=>
+        NULL
+        [11]=>
+        string(1) "0"
+        ["user_editcount"]=>
+        string(1) "0"
+        [12]=>
+        string(4) "nite"
+        ["last_name"]=>
+        string(4) "nite"
+        [13]=>
+        string(40) "73cf6cd3f1a1a951cdb89384972f8c46a3ce7a70"
+        ["password_hash"]=>
+        string(40) "73cf6cd3f1a1a951cdb89384972f8c46a3ce7a70"
+        [14]=>
+        string(16) "saltmotherfucker"
+        ["salt"]=>
+        string(16) "saltmotherfucker"
+      }
+    }
+  }
+  [1]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(31)
+    ["function"]=>
+    string(11) "find_by_sql"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &string(19) "SELECT * FROM users"
+    }
+  }
+  [2]=>
+  array(6) {
+    ["file"]=>
+    string(64) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php"
+    ["line"]=>
+    int(56)
+    ["function"]=>
+    string(8) "find_all"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(0) {
+    }
+  }
+}
+ :  
+2014-01-06 23:48:38 : array(3) {
+  [0]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(47)
+    ["function"]=>
+    string(11) "instantiate"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &array(30) {
+        [0]=>
+        string(1) "2"
+        ["id"]=>
+        string(1) "2"
+        [1]=>
+        string(9) "testuser2"
+        ["username"]=>
+        string(9) "testuser2"
+        [2]=>
+        string(3) "bob"
+        ["first_name"]=>
+        string(3) "bob"
+        [3]=>
+        string(9) "YUPHASHED"
+        ["password"]=>
+        string(9) "YUPHASHED"
+        [4]=>
+        string(17) "bob@localhost.com"
+        ["email"]=>
+        string(17) "bob@localhost.com"
+        [5]=>
+        string(22) "jkhiuywiruyweriuyweriu"
+        ["user_guid"]=>
+        string(22) "jkhiuywiruyweriuyweriu"
+        [6]=>
+        NULL
+        ["user_email_authenticated"]=>
+        NULL
+        [7]=>
+        NULL
+        ["user_email_token"]=>
+        NULL
+        [8]=>
+        NULL
+        ["user_email_token_expires"]=>
+        NULL
+        [9]=>
+        NULL
+        ["user_registration"]=>
+        NULL
+        [10]=>
+        NULL
+        ["user_newpass"]=>
+        NULL
+        [11]=>
+        string(1) "1"
+        ["user_editcount"]=>
+        string(1) "1"
+        [12]=>
+        string(7) "walkers"
+        ["last_name"]=>
+        string(7) "walkers"
+        [13]=>
+        string(40) "36f1e900c36d725931a91daa020296869b153829"
+        ["password_hash"]=>
+        string(40) "36f1e900c36d725931a91daa020296869b153829"
+        [14]=>
+        string(16) "saltmotherfucker"
+        ["salt"]=>
+        string(16) "saltmotherfucker"
+      }
+    }
+  }
+  [1]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(31)
+    ["function"]=>
+    string(11) "find_by_sql"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &string(19) "SELECT * FROM users"
+    }
+  }
+  [2]=>
+  array(6) {
+    ["file"]=>
+    string(64) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php"
+    ["line"]=>
+    int(56)
+    ["function"]=>
+    string(8) "find_all"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(0) {
+    }
+  }
+}
+ :  
+2014-01-06 23:48:38 : array(3) {
+  [0]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(47)
+    ["function"]=>
+    string(11) "instantiate"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &array(30) {
+        [0]=>
+        string(1) "3"
+        ["id"]=>
+        string(1) "3"
+        [1]=>
+        NULL
+        ["username"]=>
+        NULL
+        [2]=>
+        NULL
+        ["first_name"]=>
+        NULL
+        [3]=>
+        string(0) ""
+        ["password"]=>
+        string(0) ""
+        [4]=>
+        NULL
+        ["email"]=>
+        NULL
+        [5]=>
+        string(0) ""
+        ["user_guid"]=>
+        string(0) ""
+        [6]=>
+        NULL
+        ["user_email_authenticated"]=>
+        NULL
+        [7]=>
+        NULL
+        ["user_email_token"]=>
+        NULL
+        [8]=>
+        NULL
+        ["user_email_token_expires"]=>
+        NULL
+        [9]=>
+        NULL
+        ["user_registration"]=>
+        NULL
+        [10]=>
+        NULL
+        ["user_newpass"]=>
+        NULL
+        [11]=>
+        string(1) "0"
+        ["user_editcount"]=>
+        string(1) "0"
+        [12]=>
+        NULL
+        ["last_name"]=>
+        NULL
+        [13]=>
+        NULL
+        ["password_hash"]=>
+        NULL
+        [14]=>
+        string(16) "saltmotherfucker"
+        ["salt"]=>
+        string(16) "saltmotherfucker"
+      }
+    }
+  }
+  [1]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(31)
+    ["function"]=>
+    string(11) "find_by_sql"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &string(19) "SELECT * FROM users"
+    }
+  }
+  [2]=>
+  array(6) {
+    ["file"]=>
+    string(64) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php"
+    ["line"]=>
+    int(56)
+    ["function"]=>
+    string(8) "find_all"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(0) {
+    }
+  }
+}
+ :  
+2014-01-06 23:48:38 : Trace Dump : array(1) {
+  [0]=>
+  array(4) {
+    ["file"]=>
+    string(64) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/index.php"
+    ["line"]=>
+    int(69)
+    ["function"]=>
+    string(13) "tracedump_log"
+    ["args"]=>
+    array(0) {
+    }
+  }
+}
+ 

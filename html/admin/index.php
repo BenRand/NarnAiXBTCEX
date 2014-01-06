@@ -40,6 +40,7 @@ require_once('../../includes/nav.php');
 
 
 <?php
+logout();
 require_once('../../includes/footer.php');
 
 

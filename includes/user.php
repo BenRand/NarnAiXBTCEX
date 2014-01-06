@@ -21,6 +21,8 @@ class User {
 	public $first_name;
 	public $last_name;
 	public $email;
+    public $password_hash;
+    public $salt;
 
 	public static function find_all(){
 		global $database;
@@ -49,9 +51,14 @@ class User {
 	public static function authenticate($username="", $password=""){
 		global $database;
 
+        /** @var  $password_hash
+         *  TODO: Fix password hash.  needs dynamic salt.
+         */
+        $password_hash = sha1('saltmotherfucker' . $password);
+
 		$sql = "SELECT * FROM users ";
 		$sql .= "WHERE username = '{$username}' ";
-		$sql .= "AND password = '{$password}' ";
+		$sql .= "AND password_hash = '{$password_hash}' ";
 		$sql .= "LIMIT 1";
 
 		$result_array = self::find_by_sql($sql);
