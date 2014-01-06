@@ -13,53 +13,44 @@ require_once("config.php");
  * Page souce should not call directly.
  */
 class MySQLDatabase {
-	
+
 	private $connection;
-	public 	$last_query;
 
-	private $magic_quotes_active;
-	private $real_escape_string_exists;
-	
-  function __construct() {
-    $this->open_connection();
-/**   
- *     
-* @todo  remove magic quote usage  
-*
-*/
-	$this->magic_quotes_active = get_magic_quotes_gpc();
-	$this->real_escape_string_exists = function_exists( "mysql_real_escape_string" );
-  }
+	function __construct(){
+		$this->open_connection();
+		/**   
+		*     
+		* @todo  remove magic quote usage  
+		*
+		*/
+		$this->magic_quotes_active = get_magic_quotes_gpc();
+		$this->real_escape_string_exists = function_exists( "mysql_real_escape_string" );
+	}
 
-	public function open_connection() {
-		// $this->connection = new PDO('mysql:host=localhost;dbname=dev_env', DB_USER, DB_PASS);    // FOR PDO INEGRATION
-		$this->connection = mysql_connect(DB_SERVER, DB_USER, DB_PASS);
-		if (!$this->connection) {
+	public function open_connection(){
+		$this->connection  = mysql_connect(DB_SERVER, DB_USER, DB_PASS);
+		if (!$this->connection){ 
 			die("Database connection failed: " . mysql_error());
 		} else {
 			$db_select = mysql_select_db(DB_NAME, $this->connection);
 			if (!$db_select) {
-				die("Database selection failed: " . mysql_error());
+				die('Database selection failed: ' . mysql_error());
 			}
 		}
 	}
-
-	public function close_connection() {
-		if(isset($this->connection)) {
+	public function close_connection(){
+		if (isset($this->connection)){
 			mysql_close($this->connection);
 			unset($this->connection);
 		}
 	}
-
-	public function query($sql) {
-		$this->last_query = $sql;
-		// $result = $connection->query($sql);    // FOR PDO INTEGRATION
-		$result = mysql_query($sql, $this->connection); 
+	public function query($sql){
+		$result = mysql_query($sql, $this->connection);
 		$this->confirm_query($result);
 		return $result;
 	}
-
-	/**    
+	
+		/**    
 	 *
 	 *   Escape_value routine, to be removed
 	 *
@@ -72,7 +63,6 @@ class MySQLDatabase {
 	 *  	            recommened to use database integrated options
 	 * 
 	 */
-
 	public function escape_value( $value ) {
 	// 	if( $this->real_escape_string_exists ) { // PHP v4.3.0 or higher
 	// 		// undo any magic quote effects so mysql_real_escape_string can do the work
@@ -112,10 +102,12 @@ class MySQLDatabase {
 	    die( $output );
 		}
 	}
-	
+
+
 }
 
-$database = new MySQLDatabase();
+$database =  new MySQLDatabase();
 $db =& $database;
+
 
 ?>

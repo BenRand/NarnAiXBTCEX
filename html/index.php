@@ -1,7 +1,6 @@
 <?php
-// error_reporting(E_ALL);
-// ini_set('display_errors', '1');
-// echo 'DocRoot: ' . $_SERVER["DOCUMENT_ROOT"] . '<br><br>';
+error_reporting(E_ALL);
+ini_set('display_errors', '1');
 
 require_once($_SERVER["DOCUMENT_ROOT"] . '/../includes/init.php');
 
@@ -33,20 +32,22 @@ log_action('Page Load', __FILE__);
 
 
 <?php
+if (isset($database)){echo "true";} else { echo "false";}
+echo "<br />";
 
-$record = User::find_by_id(1);
-echo $record->full_name() . '<br>';
-echo $record->email . '<br /><br />';
+// $record = User::find_by_id(1);
+// echo $record->full_name() . '<br>';
+// echo $record->email . '<br /><br />';
 
 
-$users = User::find_all();
-// echo $users[];
+// $users = User::find_all();
+// // echo $users[];
 
-foreach ($users as $user){
-  echo "User: " . $user->username . '<br />';
-  echo "pass: " . $user->password . '<br />';
-  echo "Name: " . $user->full_name() . '<br /> <br />';
-}
+// foreach ($users as $user){
+//   echo "User: " . $user->username . '<br />';
+//   echo "pass: " . $user->password . '<br />';
+//   echo "Name: " . $user->full_name() . '<br /> <br />';
+// }
 ?>
 
 
