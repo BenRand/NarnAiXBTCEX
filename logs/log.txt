@@ -9657,3 +9657,129 @@
 2014-01-07 01:10:44 : array(0) {
 }
  :  
+2014-01-07 01:12:21 : array(0) {
+}
+ :  
+2014-01-07 01:12:35 : array(3) {
+  [0]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(47)
+    ["function"]=>
+    string(11) "instantiate"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &array(30) {
+        [0]=>
+        string(1) "1"
+        ["id"]=>
+        string(1) "1"
+        [1]=>
+        string(11) "prophetnite"
+        ["username"]=>
+        string(11) "prophetnite"
+        [2]=>
+        string(7) "prophet"
+        ["first_name"]=>
+        string(7) "prophet"
+        [3]=>
+        string(10) "mycoolpass"
+        ["password"]=>
+        string(10) "mycoolpass"
+        [4]=>
+        string(23) "prophet@prophetnite.com"
+        ["email"]=>
+        string(23) "prophet@prophetnite.com"
+        [5]=>
+        string(20) "lakjshdflkjashfjklsh"
+        ["user_guid"]=>
+        string(20) "lakjshdflkjashfjklsh"
+        [6]=>
+        NULL
+        ["user_email_authenticated"]=>
+        NULL
+        [7]=>
+        NULL
+        ["user_email_token"]=>
+        NULL
+        [8]=>
+        NULL
+        ["user_email_token_expires"]=>
+        NULL
+        [9]=>
+        NULL
+        ["user_registration"]=>
+        NULL
+        [10]=>
+        NULL
+        ["user_newpass"]=>
+        NULL
+        [11]=>
+        string(1) "0"
+        ["user_editcount"]=>
+        string(1) "0"
+        [12]=>
+        string(4) "nite"
+        ["last_name"]=>
+        string(4) "nite"
+        [13]=>
+        string(40) "73cf6cd3f1a1a951cdb89384972f8c46a3ce7a70"
+        ["password_hash"]=>
+        string(40) "73cf6cd3f1a1a951cdb89384972f8c46a3ce7a70"
+        [14]=>
+        string(16) "saltmotherfucker"
+        ["salt"]=>
+        string(16) "saltmotherfucker"
+      }
+    }
+  }
+  [1]=>
+  array(6) {
+    ["file"]=>
+    string(67) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/includes/user.php"
+    ["line"]=>
+    int(64)
+    ["function"]=>
+    string(11) "find_by_sql"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(1) {
+      [0]=>
+      &string(121) "SELECT * FROM users WHERE username = 'prophetnite' AND password_hash = '73cf6cd3f1a1a951cdb89384972f8c46a3ce7a70' LIMIT 1"
+    }
+  }
+  [2]=>
+  array(6) {
+    ["file"]=>
+    string(70) "/Users/sebastianusami/Dropbox/Coding/The_Farm_www/html/admin/login.php"
+    ["line"]=>
+    int(19)
+    ["function"]=>
+    string(12) "authenticate"
+    ["class"]=>
+    string(4) "User"
+    ["type"]=>
+    string(2) "::"
+    ["args"]=>
+    array(2) {
+      [0]=>
+      &string(11) "prophetnite"
+      [1]=>
+      &string(10) "mycoolpass"
+    }
+  }
+}
+ :  
+2014-01-07 01:12:37 : array(0) {
+}
+ :  
