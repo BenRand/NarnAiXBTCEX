@@ -37,12 +37,14 @@ require_once('../../includes/nav.php');
 
 
 
+<br /><br />
+<a href="login.php">LOGIN</a>
 
+
+<h4>You have been automatically logged out for development</h4>
 
 <?php
-logout();
 require_once('../../includes/footer.php');
-
 
 
 

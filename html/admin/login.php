@@ -57,29 +57,36 @@ require_once('../../includes/nav.php');
           </div>
         </div>
 
-        <?php echo output_message($message); ?>
+
+
+
+
+    <?php echo output_message($message); ?>
+    <div class="form-group">
+
     <form action="login.php" method="post">
       <table>
         <tr>
-          <td>Username:</td>
+          <td><label>Username:</label></td>
           <td>
-            <input type="text" name="username" maxlength="30" value="<?php echo htmlentities($username); ?>" />
+            <input class="form-control" type="text" placeholder="<?php if(htmlentities($username)) {echo htmlentities($username);} else { echo "you@email.com"; } ?>" name="username" maxlength="30" value="<?php echo htmlentities($username); ?>" />
           </td>
         </tr>
         <tr>
-          <td>Password:</td>
+          <td><label>Password:</label></td>
           <td>
-            <input type="password" name="password" maxlength="30" value="<?php echo htmlentities($password); ?>" />
+            <input class="form-control" type="password" placeholder="<?php if(htmlentities($password)) {echo htmlentities($password);} else { echo "password"; } ?>" name="password" maxlength="30" value="<?php echo htmlentities($password); ?>" />
           </td>
         </tr>
         <tr>
           <td colspan="2">
-            <input type="submit" name="submit" value="Login" />
+            <input class="form-control" type="submit" placeholder="submit" name="submit" value="Login" />
           </td>
         </tr>
       </table>
     </form>
 
+    </div>
 
 
 <?php 
