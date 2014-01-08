@@ -42,7 +42,7 @@
 	}
 
 	function include_page_template($template=""){
-		include(DOC_ROOT . '/../includes/' . $template . '.php');
+		include(DOC_ROOT . '/../control/' . $template . '.php');
 	}
 	
 	function log_action($action, $message=""){

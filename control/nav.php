@@ -33,8 +33,8 @@
         <div class="collapse navbar-collapse navbar-ex1-collapse">
           <ul class="nav navbar-nav side-nav">
             <li class='active'><a href="index.php"><i class="fa fa-dashboard"></i> Home</a></li>
-            <li><a href="charts.html"><i class="fa fa-bar-chart-o"></i> Charts</a></li>
-            <li><a href="markets.html"><i class="fa fa-table"></i> Market Data</a></li>
+            <li><a href="charts.php"><i class="fa fa-bar-chart-o"></i> Charts</a></li>
+            <li><a href="market_data.php"><i class="fa fa-table"></i> Market Data</a></li>
             <li><a href="security.html"><i class="fa fa-edit"></i> Security</a></li>
             <li><a href="news.html"><i class="fa fa-font"></i> News Feed</a></li>
             <li><a href="bootstrap-elements.html"><i class="fa fa-desktop"></i> Bootstrap Elements</a></li>
