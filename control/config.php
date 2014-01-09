@@ -11,7 +11,7 @@
 //defined("DB_SERVER") ? null : define("DB_SERVER", "localhost");
 //define("DB_USER", "root");
 //define("DB_PASS", "root");
-//define("DB_NAME", "dev_env");
+//define("DB_NAME", "nxid1");
 
 define("API_TOKEN_COINBASE", '9cf839fa926890230865b54bfe787f57cfdb49b6c3ad45eca775037ff7a5c206');
 

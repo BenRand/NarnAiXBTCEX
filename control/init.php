@@ -17,13 +17,32 @@
 // (\ for Windows, / for Unix)
 // defined('DS') ? null : define('DS', DIRECTORY_SEPERATOR);
 
+// -------ERROR DUMP BLOCK--------- //
+//error_reporting(E_ALL);
+//ini_set('display_errors', '1');
+// ---------------------------------//
+
 define('DOC_ROOT', $_SERVER['DOCUMENT_ROOT']);
 define('SVR_ROOT', $_SERVER['SERVER_NAME']);
 
-require_once('config.php');
-require_once('functions.php');
-require_once('session.php');
-require_once('database.php');
-require_once('user.php');
-// require_once('nav.php');
+defined("MODEL_PATH")
+or define("MODEL_PATH", realpath(dirname(__FILE__) . '/../MODEL') . '/');
+
+defined("VIEW_PATH")
+or define("VIEW_PATH", realpath(dirname(__FILE__) . '/../VIEW') . '/');
+
+defined("CONTROL_PATH")
+or define("CONTROL_PATH", realpath(dirname(__FILE__) . '/../CONTROL') . '/');
+
+define("AUTO_LOGOUT", false);
+
+require_once(CONTROL_PATH . 'config.php');
+require_once(CONTROL_PATH . 'functions.php');
+require_once(MODEL_PATH . 'session.php');
+require_once(MODEL_PATH . 'database.php');
+require_once(MODEL_PATH . 'user.php');
+
+/** @todo figure out where nav object/function goes in MVC */
+//require_once(MODEL_PATH . '/nav.php');
+
 

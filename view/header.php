@@ -15,7 +15,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Forms - SB Admin</title>
+    <title>HOME TITLE </title>
 
     <!-- Bootstrap core CSS -->
     <?php

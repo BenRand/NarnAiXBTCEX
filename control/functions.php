@@ -13,6 +13,7 @@
  * This is a description
  */
 
+
 	function output_message($message=" "){
         echo "<font color=red>" . $message . "</font>";
 
@@ -20,7 +21,7 @@
 
 	function __autoload($class_name){
 		$class_name = strtolower($class_name);
-		$path = "../includes/{$class_name}.php";
+		$path = "../model/{$class_name}.php";
 		if (file_exists($path)){
 			require_once($path);
 		} else {
@@ -42,7 +43,7 @@
 	}
 
 	function include_page_template($template=""){
-		include(DOC_ROOT . '/../control/' . $template . '.php');
+		include(VIEW_PATH . $template . '.php');
 	}
 	
 	function log_action($action, $message=""){

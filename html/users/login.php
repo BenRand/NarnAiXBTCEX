@@ -7,7 +7,6 @@
  */
 
 require_once($_SERVER['DOCUMENT_ROOT'] . '/../control/init.php');
-
 if ($session->is_logged_in()) { redirect_to("index.php"); }
 
 if (isset($_POST['submit'])){     // form submitted
@@ -31,16 +30,10 @@ if (isset($_POST['submit'])){     // form submitted
     $password = "";
 
 }
-
-
-
-    include_page_template('header');
-    include_page_template('nav');
-
+include_page_template('header');
+include_page_template('nav');
 ?>
-
-    <?php //echo output_message($message); ?>
-
+<!------------------------------------------------------------->
         <div class="row">
           <div class="col-lg-12">
             <h1>Login <small>Enter Your Data</small></h1>
@@ -54,11 +47,7 @@ if (isset($_POST['submit'])){     // form submitted
             </div>
           </div>
         </div>
-
-
-
-
-
+<!------------------------------------------------------------->
     <?php echo output_message($message); ?>
     <div class="form-group">
 
@@ -85,13 +74,10 @@ if (isset($_POST['submit'])){     // form submitted
     </form>
 
     </div>
-
-
-
+<!------------------------------------------------------------->
 <?php
 include_page_template('footer');
 
-if(AUTO_LOGOUT){$session->logout();}
+if(AUTO_LOGOUT){$session->logout(); echo "<h4>You have been automatically logged out for development</h4>";}
 if(isset($database)) { $database->close_connection(); }
 ?>
-

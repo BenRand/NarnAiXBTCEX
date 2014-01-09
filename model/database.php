@@ -11,7 +11,7 @@
  *   @todo  need to work to make more mysql agnositc and implement PDO
  */
 
-require_once("config.php");
+//require_once("../control/config.php");
 
 /**
  * Database object - mysql
