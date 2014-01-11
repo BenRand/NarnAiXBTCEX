@@ -36,7 +36,6 @@ class MySQLDatabase {
 	$this->magic_quotes_active = get_magic_quotes_gpc();
 	$this->real_escape_string_exists = function_exists( "mysql_real_escape_string" );
   }
-
 	public function open_connection() {
 		// $this->connection = new PDO('mysql:host=localhost;dbname=dev_env', DB_USER, DB_PASS);    // FOR PDO INEGRATION
 		$this->connection = mysql_connect(DB_SERVER, DB_USER, DB_PASS);
@@ -49,14 +48,12 @@ class MySQLDatabase {
 			}
 		}
 	}
-
 	public function close_connection() {
 		if(isset($this->connection)) {
 			mysql_close($this->connection);
 			unset($this->connection);
 		}
 	}
-
 	public function query($sql) {
 		$this->last_query = $sql;
 		// $result = $connection->query($sql);    // FOR PDO INTEGRATION
@@ -64,8 +61,7 @@ class MySQLDatabase {
 		$this->confirm_query($result);
 		return $result;
 	}
-
-	/**    
+	/**
 	 *
 	 *   Escape_value routine, to be removed
 	 *
@@ -74,44 +70,38 @@ class MySQLDatabase {
 	 *
 	 *
 	 * 
-	 * 		@deprecated magic quotes depricated as of PHP v5, will be REMOVED in version 6.
-	 *  	            recommened to use database integrated options
+	 * 		@deprecated magic quotes deprecated as of PHP v5, will be REMOVED in version 6.
+	 *  	            recommend to use database integrated options
 	 * 
 	 */
-
 	public function escape_value( $value ) {
-	// 	if( $this->real_escape_string_exists ) { // PHP v4.3.0 or higher
-	// 		// undo any magic quote effects so mysql_real_escape_string can do the work
-	// 		if( $this->magic_quotes_active ) { $value = stripslashes( $value ); }
-	// 		$value = mysql_real_escape_string( $value );
-	// 	} else { // before PHP v4.3.0
-	// 		// if magic quotes aren't already on then add slashes manually
-	// 		if( !$this->magic_quotes_active ) { $value = addslashes( $value ); }
-	// 		// if magic quotes are active, then the slashes already exist
-	// 	}
-	// 	return $value;
-	// 	
+	 	if( $this->real_escape_string_exists ) { // PHP v4.3.0 or higher
+	 		// undo any magic quote effects so mysql_real_escape_string can do the work
+	 		if( $this->magic_quotes_active ) { $value = stripslashes( $value ); }
+	 		$value = mysql_real_escape_string( $value );
+	 	} else { // before PHP v4.3.0
+	 		// if magic quotes aren't already on then add slashes manually
+	 		if( !$this->magic_quotes_active ) { $value = addslashes( $value ); }
+	 		// if magic quotes are active, then the slashes already exist
+	 	}
+	 	return $value;
+
 	}
-	
 	// "database-neutral" methods
   public function fetch_array($result_set) {
     return mysql_fetch_array($result_set);
   }
-  
   public function num_rows($result_set) {
    return mysql_num_rows($result_set);
   }
-  
   public function insert_id() {
     // get the last id inserted over the current db connection
     return mysql_insert_id($this->connection);
   }
-  
   public function affected_rows() {
     return mysql_affected_rows($this->connection);
   }
-
-	private function confirm_query($result) {
+  private function confirm_query($result) {
 		if (!$result) {
 	    $output = "<br />Database query failed: " . mysql_error() . "<br /><br />";
 	    // $output .= "Last SQL query: " . $this->last_query;

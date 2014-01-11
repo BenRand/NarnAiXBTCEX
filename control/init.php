@@ -17,9 +17,11 @@
 // (\ for Windows, / for Unix)
 // defined('DS') ? null : define('DS', DIRECTORY_SEPERATOR);
 
-// -------ERROR DUMP BLOCK--------- //
-//error_reporting(E_ALL);
-//ini_set('display_errors', '1');
+// ------- DEBUGGING CODES --------- //
+error_reporting(E_ALL);
+ini_set('display_errors', '1');
+
+define("AUTO_LOGOUT", false);
 // ---------------------------------//
 
 define('DOC_ROOT', $_SERVER['DOCUMENT_ROOT']);
@@ -33,8 +35,6 @@ or define("VIEW_PATH", realpath(dirname(__FILE__) . '/../VIEW') . '/');
 
 defined("CONTROL_PATH")
 or define("CONTROL_PATH", realpath(dirname(__FILE__) . '/../CONTROL') . '/');
-
-define("AUTO_LOGOUT", false);
 
 require_once(CONTROL_PATH . 'config.php');
 require_once(CONTROL_PATH . 'functions.php');

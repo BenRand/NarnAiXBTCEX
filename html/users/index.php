@@ -28,9 +28,9 @@ include_page_template('nav');
         </div>
 <!------------------------------------------------------------->
 <?PHP
-$record = User::find_by_id(1);
-echo $record->full_name() . '<br>';
-echo $record->email . '<br /><br />';
+//$record = User::find_by_id(1);
+//echo $record->full_name() . '<br>';
+//echo $record->email . '<br /><br />';
 
 
 $users = User::find_all();
@@ -38,12 +38,14 @@ $users = User::find_all();
 
 
 foreach ($users as $user){
-echo "User: " . $user->username . '<br />';
-echo "pass: " . $user->password . '<br />';
-echo "Name: " . $user->full_name() . '<br />';
-echo "Hash: " . $user->password_hash . '<br />';
-echo "Salt: " . $user->salt . '<br />';
-echo "password_hash: "  . sha1($salt.$user->password) . '<br /><br />';
+    echo "User: " . $user->username . '<br />';
+    echo "pass: " . $user->password . '<br />';
+    echo "Salt: " . $user->salt . '<br />';
+    echo "Hash: " . $user->password_hash . '<br />';
+    $user->password_hash = hash('sha256', $user->salt . $user->password);
+    echo "password_hash: " . $user->password_hash . '<br /><br />';
+    $user->testdata = true;
+//    $user->update();
 }
 ?>
 
