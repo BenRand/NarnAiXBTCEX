@@ -91,15 +91,9 @@ If you want something to monitor bitcoind to ensure it stays running and start i
 Go to your user's home directory (`cd ~`), clone the repository and install nodejs dependencies:
 
 ```
-git clone https://github.com/kyledrake/NarnAiXBTC.git
+git clone https://github.com/NarnAiX/NarnAiXBTC.git
 cd NarnAiXBTC
 npm install
-```
-
-Now you will need to create and configure your config.json file, one for the main folder and one in `public`. From the `NarnAiXBTC` directory:
-
-```
-cp config.template.json config.json
 ```
 
 Edit the file to connect to `bitcoind`. Use port `18332` for testnet, `8332` for production. Also remove the `testnet` entry for production:
@@ -128,10 +122,6 @@ For SSL:
 ```
 
 Now copy the client application's config:
-
-```
-cp public/config.template.json public/config.json
-```
 
 And change `network` to `prod` instead of `testnet` if you are using NarnAiXBTC in production mode.
 
