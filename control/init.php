@@ -39,7 +39,6 @@ or define("CONTROL_PATH", realpath(dirname(__FILE__) . '/../CONTROL') . '/');
 require_once(CONTROL_PATH . 'config.php');
 require_once(CONTROL_PATH . 'functions.php');
 require_once(MODEL_PATH   . 'session.php');
-require_once(MODEL_PATH   . 'database.php');
 require_once(MODEL_PATH   . 'database_object.php');
 require_once(MODEL_PATH   . 'bugtrack.php');
 require_once(MODEL_PATH   . 'user.php');
