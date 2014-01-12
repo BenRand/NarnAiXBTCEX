@@ -12,7 +12,7 @@
 <?php
 
 //require("/Users/sebastianusami/Dropbox/Coding/The_Farm/www/coinbase-php/lib/Coinbase.php");
-require_once("../includes/Coinbase.php");
+require_once("../../model/Coinbase.php");
 //require_once("www/coinbase-php/lib/Coinbase.php");
 //require_once("coinbase-php/lib/Coinbase.php");
 ?>

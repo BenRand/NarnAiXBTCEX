@@ -9,6 +9,12 @@
 require_once($_SERVER['DOCUMENT_ROOT'] . '/../control/init.php');
 if (!$session->is_logged_in()) { redirect_to("login.php"); }
 include_page_template('header');
+$q=$_GET["q"];
+if($q > 1) {echo "FUCK";}
+?>
+
+
+<?php
 include_page_template('nav');
 ?>
 <!------------------------------------------------->
@@ -29,8 +35,10 @@ include_page_template('nav');
 
 $users = User::find_all();
 // echo $users[];
+echo "<form>";
 
 foreach ($users as $user){
+    echo "ID: " . $user->id . "<br /><input type='radio' name='id' value=" . $user->id . ">";
     echo "User: " . $user->username . '<br />';
     echo "pass: " . $user->password . '<br />';
     echo "Salt: " . $user->salt . '<br />';
@@ -39,6 +47,7 @@ foreach ($users as $user){
     
     //    $user->update();
 }
+echo "<input type=button value='CLICK ME' onclick=\"showUser(this.value)\"> </form>";
 ?>
 
 
@@ -46,6 +55,8 @@ foreach ($users as $user){
 <br /><br />
 <a href="login.php">LOGIN</a>
 
+
+<div id="txtHint"><b>Person info will be listed here.</b></div>
 
 <h4>You have been automatically logged out for development</h4>
 
