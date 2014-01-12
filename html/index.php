@@ -7,8 +7,8 @@
  */
 
 require_once($_SERVER['DOCUMENT_ROOT'] . '/../control/init.php');
-//if (!$session->is_logged_in()) { redirect_to("users"); }
-//if ($session->is_logged_in()) { redirect_to("users"); }
+if (!$session->is_logged_in()) { redirect_to("users"); }
+if ($session->is_logged_in()) { redirect_to("users"); }
 
 include_page_template('header');
 include_page_template('nav');
@@ -31,12 +31,11 @@ include_page_template('nav');
 <h2>You should not see this page</h2>
 
 <?php
-$user = new User();
-//$user->username = "johnsmith";
-//$user->password = "abd234";
-//$user->first_name = "Johm";
-//$user->last_name = "smith";
-//$user->create();
+$issue = new bugtrack();
+
+$issue->title = "first issue";
+$issue->save();
+
 
 //$user = User::find_by_id(5); if (isset($user->id)){$user->delete(); echo "User deleteed";}
 

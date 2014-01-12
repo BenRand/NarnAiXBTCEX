@@ -18,8 +18,8 @@
 // defined('DS') ? null : define('DS', DIRECTORY_SEPERATOR);
 
 // ------- DEBUGGING CODES --------- //
-error_reporting(E_ALL);
-ini_set('display_errors', '1');
+//error_reporting(E_ALL);
+//ini_set('display_errors', '1');
 
 define("AUTO_LOGOUT", false);
 // ---------------------------------//
@@ -38,9 +38,11 @@ or define("CONTROL_PATH", realpath(dirname(__FILE__) . '/../CONTROL') . '/');
 
 require_once(CONTROL_PATH . 'config.php');
 require_once(CONTROL_PATH . 'functions.php');
-require_once(MODEL_PATH . 'session.php');
-require_once(MODEL_PATH . 'database.php');
-require_once(MODEL_PATH . 'user.php');
+require_once(MODEL_PATH   . 'session.php');
+require_once(MODEL_PATH   . 'database.php');
+require_once(MODEL_PATH   . 'database_object.php');
+require_once(MODEL_PATH   . 'bugtrack.php');
+require_once(MODEL_PATH   . 'user.php');
 
 /** @todo figure out where nav object/function goes in MVC */
 //require_once(MODEL_PATH . '/nav.php');

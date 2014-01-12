@@ -16,16 +16,38 @@ include_page_template('nav');
           <div class="col-lg-12">
             <h1>Admin <small>Enter Your Data</small></h1>
             <ol class="breadcrumb">
-              <li><a href="index.html"><i class="fa fa-dashboard"></i> Dashboard</a></li>
-              <li class="active"><i class="fa fa-edit"></i> Forms</li>
+              <li><a href="index.php"><i class="active"></i> Dashboard</a></li>
+              <li><a href="bug.php"><i class="fa fa-dashboard"></i> Bug Tracker</a></li>
+              <li><a href="../users"><i class="fa fa-dashboard"></i> User Home</a></li>
+
             </ol>
-            <div class="alert alert-info alert-dismissable">
-              <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-              Visit <a class="alert-link" target="_blank" href="http://getbootstrap.com/css/#forms">Bootstrap's Form Documentation</a> for more information.
-            </div>
           </div>
         </div>
 <?PHP
+//$record = User::find_by_id(1);
+//echo $record->full_name() . '<br>';
+//echo $record->email . '<br /><br />';
+
+
+//$users = User::find_all();
+// echo $users[];
+
+
+//foreach ($users as $user){
+//    echo "User: " . $user->username . '<br />';
+//    echo "pass: " . $user->password . '<br />';
+//    echo "Salt: " . $user->salt . '<br />';
+//    echo "Hash: " . $user->password_hash . '<br />';
+//    $user->password_hash = hash('sha256', $user->salt . $user->password);
+//    echo "password_hash: " . $user->password_hash . '<br /><br />';
+//    $user->testdata = true;
+////    $user->update();
+//}
+
+
+
+
+
 
 $users = User::find_all();
 // echo $users[];

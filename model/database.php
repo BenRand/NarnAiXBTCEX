@@ -8,7 +8,7 @@
  *
  * Database access page
  *
- *   @todo  need to work to make more mysql agnositc and implement PDO
+ *   @todo  need to work to make more mysql agnostic and implement PDO
  */
 
 //require_once("../control/config.php");

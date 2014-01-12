@@ -28,11 +28,9 @@ class Session {
             // actions to take right away if user is not logged in
         }
 	}
-	
     public function is_logged_in() {
         return $this->logged_in;
     }
-
 	public function login($user) {
         // database should find user based on username/password
         if($user){
@@ -40,13 +38,11 @@ class Session {
             $this->logged_in = true;
         }
     }
-  
     public function logout() {
         unset($_SESSION['user_id']);
         unset($this->user_id);
         $this->logged_in = false;
     }
-
 	public function message($msg="") {
 	    if(!empty($msg)) {
 	        // then this is "set message"
@@ -57,7 +53,6 @@ class Session {
 		    return $this->message;
 	    }
 	}
-
 	private function check_login() {
         if(isset($_SESSION['user_id'])) {
         $this->user_id = $_SESSION['user_id'];
@@ -67,8 +62,7 @@ class Session {
         $this->logged_in = false;
     }
   }
-  
-	private function check_message() {
+  	private function check_message() {
 		// Is there a message stored in the session?
 		if(isset($_SESSION['message'])) {
 			// Add it as an attribute and erase the stored version
