@@ -12,6 +12,10 @@
  */
 global $session;
 global $user;
+
+$coinbase = new Coinbase('9cf839fa926890230865b54bfe787f57cfdb49b6c3ad45eca775037ff7a5c206');
+echo $balance = $coinbase->getBalance();
+
 ?>
 <div id="wrapper">
 
@@ -25,7 +29,17 @@ global $user;
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.php">NARNAIX HOME</a>
+            <a class="navbar-brand" href="index.php">
+
+            <?php
+            if ($session->is_logged_in()) {
+                echo "Buy: $" . $coinbase->getBuyPrice('1') . " USD -- ";
+                echo "Balance: " . $balance . " BTC";
+            }else {
+                echo "NarnAiX Home";
+            }
+            ?>
+            </a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->

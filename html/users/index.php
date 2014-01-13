@@ -11,7 +11,10 @@ if (!$session->is_logged_in()) { redirect_to("login.php"); }
 
 include_page_template('header');
 include_page_template('nav');
+
+$coinbase = new Coinbase('9cf839fa926890230865b54bfe787f57cfdb49b6c3ad45eca775037ff7a5c206');
 ?>
+
 <!------------------------------------------------------------->
         <div class="row">
           <div class="col-lg-12">
@@ -22,7 +25,7 @@ include_page_template('nav');
             </ol>
             <div class="alert alert-info alert-dismissable">
               <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-              Visit <a class="alert-link" target="_blank" href="http://getbootstrap.com/css/#forms">Bootstrap's Form Documentation</a> for more information.
+               <a class="alert-link"></a> BTC Account: <?php echo $coinbase->getReceiveAddress(); ?>
             </div>
           </div>
         </div>

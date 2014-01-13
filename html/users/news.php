@@ -15,7 +15,7 @@ include_page_template('nav');
 <!------------------------------------------------------------->
         <div class="row">
           <div class="col-lg-12">
-            <h1>News Feeds <small>All about virtual currencys</small></h1>
+            <h1>News Feeds <small>All about virtual currencies</small></h1>
             <ol class="breadcrumb">
               <li><a href="index.php"><i class="fa fa-dashboard"></i> Dashboard</a></li>
               <li class="active"><i class="fa fa-edit"></i> Forms</li>

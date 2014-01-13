@@ -15,7 +15,7 @@ include_page_template('nav');
 ?>
         <div class="row">
           <div class="col-lg-12">
-            <h1>Trading Home <small>Welcome to your bitcoin trading platform</small></h1>
+            <h1>Trading Home <small>Welcome to your Bitcoin trading platform</small></h1>
             <ol class="breadcrumb">
               <li><a href="index.html"><i class="fa fa-dashboard"></i> Dashboard</a></li>
               <li class="active"><i class="fa fa-edit"></i> Forms</li>
@@ -37,7 +37,7 @@ $issue->title = "first issue";
 $issue->save();
 
 
-//$user = User::find_by_id(5); if (isset($user->id)){$user->delete(); echo "User deleteed";}
+//$user = User::find_by_id(5); if (isset($user->id)){$user->delete(); echo "User Deleted";}
 
 ?>
 

@@ -26,7 +26,7 @@ if (isset($_POST['submit'])){     // form submitted
       $message = "username/password combination incorrect";
     }
 
-} else { // for not subbitedd
+} else { // for not submitted
     $username = "";
     $password = "";
 

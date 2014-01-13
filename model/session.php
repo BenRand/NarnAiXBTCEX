@@ -48,6 +48,7 @@ class Session {
 	        // then this is "set message"
 	        // make sure you understand why $this->message=$msg wouldn't work
 	        $_SESSION['message'] = $msg;
+            return 0;
 	    } else {
 	        // then this is "get message"
 		    return $this->message;

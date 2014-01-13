@@ -13,9 +13,9 @@
 // Define core paths
 // Define them as absolutes to make sure require_once works as needed
 // 
-// DIRECTORY_SEPERATOR is a PHP predefined constant
+// DIRECTORY_SEPARATOR is a PHP predefined constant
 // (\ for Windows, / for Unix)
-// defined('DS') ? null : define('DS', DIRECTORY_SEPERATOR);
+// defined('DS') ? null : define('DS', DIRECTORY_SEPARATOR);
 
 // ------- DEBUGGING CODES --------- //
 //error_reporting(E_ALL);
@@ -42,6 +42,8 @@ require_once(MODEL_PATH   . 'session.php');
 require_once(MODEL_PATH   . 'database_object.php');
 require_once(MODEL_PATH   . 'bugtrack.php');
 require_once(MODEL_PATH   . 'user.php');
+require_once(MODEL_PATH   . 'Coinbase.php');
+
 
 /** @todo figure out where nav object/function goes in MVC */
 //require_once(MODEL_PATH . '/nav.php');
