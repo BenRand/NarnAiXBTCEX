@@ -16,7 +16,7 @@ require_once('database_object.php');
 
 class User extends databaseObject {
     protected static $table_name = "users";
-    protected static $db_fields = array('id', 'username', 'password', 'first_name', 'last_name', 'email', 'password_hash', 'salt');
+    protected static $db_fields = array('id', 'username', 'password', 'first_name', 'last_name', 'email', 'password_hash', 'salt', 'alias');
 	public $id;
 	public $username;
 	public $password;
@@ -25,6 +25,8 @@ class User extends databaseObject {
 	public $email;
     public $password_hash;
     public $salt;
+    public $alias;
+
 
     public static function authenticate($username="", $password=""){
         global $database;
